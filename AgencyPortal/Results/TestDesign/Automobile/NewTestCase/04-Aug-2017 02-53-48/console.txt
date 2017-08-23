@@ -1,0 +1,81 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_131
+java.home            : C:\Program Files\Java\jre1.8.0_131
+os.name              : Windows 7
+os.arch              : x86
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Fri Aug 04 02:53:48 EDT 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:Automobile] [TestCase: NewTestCase] [Description: Test Run] [Browser: IE] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching IE
+Launching Local Driver
+Started InternetExplorerDriver server (32-bit)
+3.4.0.0
+Listening on port 29409
+Only local connections are allowed
+2017-08-04 02:53:55:08S -0400 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+IE Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://plworkstationin5.allmerica.com | Conditon: Start Param | @04-Aug-2017 02:53:56.056
+[DONE]   | Opened Url: https://plworkstationin5.allmerica.com
+
+===================================================================================================
+
+Step:2   | Object: User ID | Action: Set | Input: TestData1:UserN | Conditon:  | @04-Aug-2017 02:53:57.057
+Using @name [user], Object 'User ID' Found in 91 ms
+[DONE]   | Entered Text 'dxk886' on 'User ID'
+
+===================================================================================================
+
+Step:3   | Object: Password | Action: setEncrypted | Input: TestData1:PassW | Conditon: End Param | @04-Aug-2017 02:53:58.058
+Using @name [password], Object 'Password' Found in 68 ms
+[DEBUG]   | Data not encrypted 'rsa123'
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: Open | Input: @https://plworkstationin5.allmerica.com | Conditon: Start Param | @04-Aug-2017 02:53:59.059
+[DONE]   | Opened Url: https://plworkstationin5.allmerica.com
+
+===================================================================================================
+
+Step:2   | Object: User ID | Action: Set | Input: TestData1:UserN | Conditon:  | @04-Aug-2017 02:53:59.059
+Breaking subIteration, End Of Input!!
+Step:4   | Object: Continue | Action: Click | Input:  | Conditon:  | @04-Aug-2017 02:53:59.059
+Using @relative_xpath [//button[@value='Log-in']], Object 'Continue' Found in 100 ms
+[DONE]   | Clicking on Continue
+
+===================================================================================================
+
+Step:5   | Object: hover-color | Action: Click | Input:  | Conditon:  | @04-Aug-2017 02:54:01.001
+Using @type [div], Object 'hover-color' Found in 1685 ms
+[DONE]   | Clicking on hover-color
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Automobile:NewTestCase
+Executed Steps       : 6
+Passed Steps         : 5
+Failed Steps         : 1
+Time Taken           : 00:00:16
+-----------------------------------------------------
+
+Run Finished on Fri Aug 04 02:54:05 EDT 2017
+-----------------------------------------------------
+ExecutionDate        : 04-Aug-2017 02-53-48
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:16
+ReportPath           : file:///C:\Poorni\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\Automobile\NewTestCase\04-Aug-2017 02-53-48\summary.html
+-----------------------------------------------------

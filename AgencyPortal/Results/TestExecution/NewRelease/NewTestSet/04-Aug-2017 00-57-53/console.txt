@@ -1,0 +1,386 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_131
+java.home            : C:\Program Files\Java\jre1.8.0_131
+os.name              : Windows 7
+os.arch              : x86
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Fri Aug 04 00:57:53 EDT 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:Automobile] [TestCase: Auto] [Description: Auto] [Browser: IE] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[1] TestCase selected for execution from [//NewRelease/NewTestSet]
+----------------------------------------------------------
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching IE
+Launching Remote Driver
+2017-08-04 00:57:57:08S -0400 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+IE Launched
+Step:2   | Object: Browser | Action: Open | Input: @http://tapuat.allmerica.com/personal | Conditon:  | @04-Aug-2017 00:57:57.057
+[DONE]   | Opened Url: http://tapuat.allmerica.com/personal
+
+===================================================================================================
+
+Step:1   | Object: User ID | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @04-Aug-2017 00:57:58.058
+Using @name [user], Object 'User ID' Found in 85 ms
+[DONE]   | Page Element[User ID] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[User ID] is clicked
+
+===================================================================================================
+
+Step:2   | Object: User ID | Action: enterTxtInputByFluentWait | Input: TestData0:Username | Conditon:  | @04-Aug-2017 00:57:58.058
+Using @name [user], Object 'User ID' Found in 76 ms
+[PASS]   | Entered Text 'sha566' on 'User ID'
+
+===================================================================================================
+
+Step:3   | Object: Password | Action: enterTxtInputByFluentWait | Input: TestData0:Password | Conditon:  | @04-Aug-2017 00:58:00.000
+Using @name [password], Object 'Password' Found in 79 ms
+[PASS]   | Entered Text 'rsa123' on 'Password'
+
+===================================================================================================
+
+Step:4   | Object: Continue | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @04-Aug-2017 00:58:01.001
+Using @relative_xpath [//button[@value='Log-in']], Object 'Continue' Found in 82 ms
+[DONE]   | Page Element[Continue] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Continue] is clicked
+
+===================================================================================================
+
+Step:1   | Object: hover-color | Action: Click | Input:  | Conditon:  | @04-Aug-2017 00:58:06.006
+Using @relative_xpath [//h4[contains(text(),'Automobile')]], Object 'hover-color' Found in 1409 ms
+[DONE]   | Clicking on hover-color
+
+===================================================================================================
+
+Step:1   | Object: NewCustomerObject | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @04-Aug-2017 00:58:13.013
+Using @id [select2-chosen-2], Object 'NewCustomerObject' Found in 81 ms
+[DONE]   | Page Element[NewCustomerObject] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[NewCustomerObject] is clicked
+
+===================================================================================================
+
+Step:2   | Object: Customer Search | Action: enterTxtInputByFluentWait | Input: @create new customer number | Conditon:  | @04-Aug-2017 00:58:14.014
+Using @id [s2id_autogen2_search], Object 'Customer Search' Found in 96 ms
+[PASS]   | Entered Text 'create new customer number' on 'Customer Search'
+
+===================================================================================================
+
+2017-08-04 00:58:16:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.reporting.util.ReportUtils takeScreenshot:null
+java.lang.RuntimeException: Error making screenshot
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:183)
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.createScreenShot(SeleniumDriver.java:159)
+	at com.cognizant.cognizantits.engine.reporting.util.ReportUtils.takeScreenshot(ReportUtils.java:86)
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler.takeSSAndPutDetail(HtmlTestCaseHandler.java:288)
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler.takeScreenShot(HtmlTestCaseHandler.java:249)
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler.putStatus(HtmlTestCaseHandler.java:226)
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler.updateTestLog(HtmlTestCaseHandler.java:115)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:134)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:105)
+	at com.cognizant.cognizantits.engine.custommethods.CustomMethods$2.apply(CustomMethods.java:65)
+	at com.cognizant.cognizantits.engine.custommethods.CustomMethods$2.apply(CustomMethods.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at com.cognizant.cognizantits.engine.custommethods.CustomMethods.enterTxtInputByFluentWait(CustomMethods.java:59)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:368)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:121)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:105)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:57)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 89 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:40703/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: d6f0da66-c064-4b85-a009-677ade5383d0
+Command duration or timeout: 335 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:573)
+	at com.galenframework.utils.GalenUtils.makeFullScreenshot(GalenUtils.java:116)
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:175)
+	... 30 more
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:141)
+	... 34 more
+Caused by: org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 89 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:40703/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: d6f0da66-c064-4b85-a009-677ade5383d0
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: EventFiringWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:573)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy8.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:217)
+	at org.openqa.selenium.remote.server.handler.ExecuteScript.call(ExecuteScript.java:56)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	... 3 more
+
+Step:3   | Object: CustomerResults | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @04-Aug-2017 00:58:16.016
+2017-08-04 00:58:16:08S -0400 [WARNING] com.cognizant.cognizantits.engine.execution.run.TestStepRunner execute:Unable to load reusable
+com.cognizant.cognizantits.engine.execution.exception.DriverClosedException: Driver IE Closed / Could not be reached
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.isAlive(SeleniumDriver.java:143)
+	at com.cognizant.cognizantits.engine.core.CommandControl.canIFindElement(CommandControl.java:103)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:92)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:170)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:143)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:368)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:121)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:105)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:57)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Step:1   | Object: Edit | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @04-Aug-2017 00:58:16.016
+2017-08-04 00:58:17:08S -0400 [WARNING] com.cognizant.cognizantits.engine.execution.run.TestStepRunner execute:Unable to load reusable
+com.cognizant.cognizantits.engine.execution.exception.DriverClosedException: Driver IE Closed / Could not be reached
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.isAlive(SeleniumDriver.java:143)
+	at com.cognizant.cognizantits.engine.core.CommandControl.canIFindElement(CommandControl.java:103)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:92)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:170)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:143)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:368)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:121)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:105)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:57)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Step:1   | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @04-Aug-2017 00:58:17.017
+2017-08-04 00:58:27:08S -0400 [OFF ] com.cognizant.cognizantits.engine.commands.WaitFor waitFor:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.commands.WaitFor$1@1650827 (tried for 10 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitFor(WaitFor.java:292)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitFor(WaitFor.java:240)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitForPageLoaded(WaitFor.java:73)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:368)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:121)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:105)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:57)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:40703/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: d6f0da66-c064-4b85-a009-677ade5383d0
+Command duration or timeout: 411 milliseconds
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:573)
+	at com.cognizant.cognizantits.engine.commands.WaitFor$1.apply(WaitFor.java:312)
+	at com.cognizant.cognizantits.engine.commands.WaitFor$1.apply(WaitFor.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 21 more
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:141)
+	... 26 more
+Caused by: org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:40703/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: d6f0da66-c064-4b85-a009-677ade5383d0
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: EventFiringWebDriver
+	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:573)
+	at sun.reflect.GeneratedMethodAccessor44.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy8.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:217)
+	at org.openqa.selenium.remote.server.handler.ExecuteScript.call(ExecuteScript.java:56)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	... 3 more
+
+[DEBUG]   | Couldn't wait for action to complete in given time - 10 seconds
+
+===================================================================================================
+
+Step:2   | Object: IncidentDriver | Action: selectDropDown_UsingIndexByFluentWait | Input: @01 | Conditon:  | @04-Aug-2017 00:58:27.027
+2017-08-04 00:58:28:08S -0400 [WARNING] com.cognizant.cognizantits.engine.execution.run.TestStepRunner execute:Unable to load reusable
+com.cognizant.cognizantits.engine.execution.exception.DriverClosedException: Driver IE Closed / Could not be reached
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.isAlive(SeleniumDriver.java:143)
+	at com.cognizant.cognizantits.engine.core.CommandControl.canIFindElement(CommandControl.java:103)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:92)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:170)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:143)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:368)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:121)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:105)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:57)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Step:1   | Object: VehicleVIN | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @04-Aug-2017 00:58:28.028
+2017-08-04 00:58:28:08S -0400 [WARNING] com.cognizant.cognizantits.engine.execution.run.TestStepRunner execute:Unable to load reusable
+com.cognizant.cognizantits.engine.execution.exception.DriverClosedException: Driver IE Closed / Could not be reached
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.isAlive(SeleniumDriver.java:143)
+	at com.cognizant.cognizantits.engine.core.CommandControl.canIFindElement(CommandControl.java:103)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:92)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:170)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:143)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:368)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:121)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:105)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:57)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Step:9   | Object: VehicleLiabilityLimit | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @100/300/50 | Conditon:  | @04-Aug-2017 00:58:28.028
+2017-08-04 00:58:29:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.core.Task runIteration:Driver IE Closed / Could not be reached
+com.cognizant.cognizantits.engine.execution.exception.DriverClosedException: Driver IE Closed / Could not be reached
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.isAlive(SeleniumDriver.java:143)
+	at com.cognizant.cognizantits.engine.core.CommandControl.canIFindElement(CommandControl.java:103)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:92)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:170)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:143)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | Driver IE Closed / Could not be reached
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Automobile:Auto
+Executed Steps       : 13
+Passed Steps         : 11
+Failed Steps         : 2
+Time Taken           : 00:00:38
+-----------------------------------------------------
+
+Run Finished on Fri Aug 04 00:58:32 EDT 2017
+-----------------------------------------------------
+ExecutionDate        : 04-Aug-2017 00-57-53
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:38
+ReportPath           : file:///C:\Poorni\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestExecution\NewRelease\NewTestSet\04-Aug-2017 00-57-53\summary.html
+-----------------------------------------------------

@@ -1,0 +1,74 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_92
+java.home            : C:\Program Files\Java\jre1.8.0_92
+os.name              : Windows 7
+os.arch              : x86
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Fri Jul 28 03:43:33 EDT 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:NewScenario] [TestCase: NewTestCase] [Description: Test Run] [Browser: IE] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching IE
+Launching Local Driver
+Started InternetExplorerDriver server (32-bit)
+3.4.0.0
+Listening on port 27301
+Only local connections are allowed
+2017-07-28 03:43:43:07S -0400 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+IE Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://plworkstationin5.allmerica.com | Conditon:  | @28-Jul-2017 03:43:43.043
+[DONE]   | Opened Url: https://plworkstationin5.allmerica.com
+
+===================================================================================================
+
+Step:2   | Object: User ID | Action: Set | Input: @dxk886 | Conditon:  | @28-Jul-2017 03:43:50.050
+Using @name [user], Object 'User ID' Found in 197 ms
+[DONE]   | Entered Text 'dxk886' on 'User ID'
+
+===================================================================================================
+
+Step:3   | Object: Password | Action: setEncrypted | Input: @cnNhMTIz Enc | Conditon:  | @28-Jul-2017 03:43:51.051
+Using @name [password], Object 'Password' Found in 172 ms
+[DONE]   | Entered Encrypted Text cnNhMTIz on Password
+
+===================================================================================================
+
+Step:4   | Object: Continue | Action: Click | Input:  | Conditon:  | @28-Jul-2017 03:43:53.053
+Using @relative_xpath [//button[@value='Log-in']], Object 'Continue' Found in 108 ms
+[DONE]   | Clicking on Continue
+
+===================================================================================================
+
+Step:5   | Object: hover-color | Action: Click | Input:  | Conditon:  | @28-Jul-2017 03:44:11.011
+Using @relative_xpath [//h4[contains(text(),'Automobile')]], Object 'hover-color' Found in 225 ms
+[DONE]   | Clicking on hover-color
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : NewScenario:NewTestCase
+Executed Steps       : 5
+Passed Steps         : 5
+Failed Steps         : 0
+Time Taken           : 00:00:58
+-----------------------------------------------------
+
+Run Finished on Fri Jul 28 03:44:31 EDT 2017
+-----------------------------------------------------
+ExecutionDate        : 28-Jul-2017 03-43-33
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:58
+ReportPath           : file:///C:\Users\bpstestr\Desktop\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\NewScenario\NewTestCase\28-Jul-2017 03-43-33\summary.html
+-----------------------------------------------------

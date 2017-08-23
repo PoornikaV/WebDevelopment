@@ -1,0 +1,88 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_131
+java.home            : C:\Program Files\Java\jre1.8.0_131
+os.name              : Windows 7
+os.arch              : x86
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Fri Aug 04 02:52:27 EDT 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:Automobile] [TestCase: NewTestCase] [Description: Test Run] [Browser: IE] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching IE
+Launching Local Driver
+Started InternetExplorerDriver server (32-bit)
+3.4.0.0
+Listening on port 13651
+Only local connections are allowed
+2017-08-04 02:52:31:08S -0400 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+IE Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://plworkstationin5.allmerica.com | Conditon:  | @04-Aug-2017 02:52:31.031
+[DONE]   | Opened Url: https://plworkstationin5.allmerica.com
+
+===================================================================================================
+
+Step:2   | Object: User ID | Action: Set | Input: TestData1:UserN | Conditon: Start Param | @04-Aug-2017 02:52:31.031
+Using @name [user], Object 'User ID' Found in 240 ms
+[DONE]   | Entered Text 'dxk886' on 'User ID'
+
+===================================================================================================
+
+Step:3   | Object: Password | Action: setEncrypted | Input: TestData1:PassW | Conditon: End Param | @04-Aug-2017 02:52:32.032
+Using @name [password], Object 'Password' Found in 54 ms
+[DEBUG]   | Data not encrypted 'rsa123'
+
+===================================================================================================
+
+Step:2   | Object: User ID | Action: Set | Input: TestData1:UserN | Conditon: Start Param | @04-Aug-2017 02:52:32.032
+Using @name [user], Object 'User ID' Found in 54 ms
+[DONE]   | Entered Text '12' on 'User ID'
+
+===================================================================================================
+
+Step:3   | Object: Password | Action: setEncrypted | Input: TestData1:PassW | Conditon: End Param | @04-Aug-2017 02:52:33.033
+Using @name [password], Object 'Password' Found in 55 ms
+[DEBUG]   | Data not encrypted '12'
+
+===================================================================================================
+
+Step:2   | Object: User ID | Action: Set | Input: TestData1:UserN | Conditon: Start Param | @04-Aug-2017 02:52:33.033
+Breaking subIteration, End Of Input!!
+Step:4   | Object: Continue | Action: Click | Input:  | Conditon:  | @04-Aug-2017 02:52:33.033
+Using @relative_xpath [//button[@value='Log-in']], Object 'Continue' Found in 74 ms
+[DONE]   | Clicking on Continue
+
+===================================================================================================
+
+Step:5   | Object: hover-color | Action: Click | Input:  | Conditon:  | @04-Aug-2017 02:52:34.034
+Using @type [div], Object 'hover-color' Found in 1463 ms
+[DONE]   | Clicking on hover-color
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Automobile:NewTestCase
+Executed Steps       : 7
+Passed Steps         : 5
+Failed Steps         : 2
+Time Taken           : 00:00:10
+-----------------------------------------------------
+
+Run Finished on Fri Aug 04 02:52:37 EDT 2017
+-----------------------------------------------------
+ExecutionDate        : 04-Aug-2017 02-52-27
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:10
+ReportPath           : file:///C:\Poorni\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\Automobile\NewTestCase\04-Aug-2017 02-52-27\summary.html
+-----------------------------------------------------

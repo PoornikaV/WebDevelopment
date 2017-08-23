@@ -1,0 +1,25 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_131
+java.home            : C:\Program Files\Java\jre1.8.0_131
+os.name              : Windows 7
+os.arch              : x86
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Fri Aug 04 00:32:59 EDT 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:Automobile] [TestCase: Auto] [Description: Auto] [Browser: IE] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[1] TestCase selected for execution from [//NewRelease/NewTestSet]
+----------------------------------------------------------
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching IE
+Launching Remote Driver
+2017-08-04 00:33:52:08S -0400 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Poorni\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\lib\cognizant-intelligent-test-scripter-engine-1.0.jar

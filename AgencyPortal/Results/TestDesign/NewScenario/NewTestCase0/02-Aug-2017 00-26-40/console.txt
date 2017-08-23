@@ -1,0 +1,398 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_92
+java.home            : C:\Program Files\Java\jre1.8.0_92
+os.name              : Windows 7
+os.arch              : x86
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Wed Aug 02 00:26:40 EDT 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:NewScenario] [TestCase: NewTestCase0] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 30557
+Only local connections are allowed.
+2017-08-02 00:26:47:08S -0400 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @http://tapuat.allmerica.com/personal | Conditon:  | @02-Aug-2017 00:26:47.047
+[DONE]   | Opened Url: http://tapuat.allmerica.com/personal
+
+===================================================================================================
+
+Step:2   | Object: User ID | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:26:49.049
+Using @name [user], Object 'User ID' Found in 67 ms
+[DONE]   | Clicking on User ID
+
+===================================================================================================
+
+Step:3   | Object: User ID | Action: Set | Input: @sha566 | Conditon:  | @02-Aug-2017 00:26:49.049
+Using @name [user], Object 'User ID' Found in 25 ms
+[DONE]   | Entered Text 'sha566' on 'User ID'
+
+===================================================================================================
+
+Step:4   | Object: Password | Action: setEncrypted | Input: @cnNhMTIz Enc | Conditon:  | @02-Aug-2017 00:26:49.049
+Using @name [password], Object 'Password' Found in 41 ms
+[DONE]   | Entered Encrypted Text cnNhMTIz on Password
+
+===================================================================================================
+
+Step:5   | Object: Continue | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:26:50.050
+Using @relative_xpath [//button[@value='Log-in']], Object 'Continue' Found in 37 ms
+[DONE]   | Clicking on Continue
+
+===================================================================================================
+
+Step:6   | Object: hover-color | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:26:59.059
+Using @relative_xpath [//h4[contains(text(),'Automobile')]], Object 'hover-color' Found in 38 ms
+[DONE]   | Clicking on hover-color
+
+===================================================================================================
+
+Step:7   | Object: NewCustomerObject | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:27:02.002
+Using @id [select2-chosen-2], Object 'NewCustomerObject' Found in 97 ms
+[DONE]   | Clicking on NewCustomerObject
+
+===================================================================================================
+
+Step:8   | Object: Customer Search | Action: Set | Input: @create new customer number | Conditon:  | @02-Aug-2017 00:27:02.002
+Using @id [s2id_autogen2_search], Object 'Customer Search' Found in 93 ms
+[DONE]   | Entered Text 'create new customer number' on 'Customer Search'
+
+===================================================================================================
+
+Step:9   | Object: CustomerResults | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:27:03.003
+Using @relative_xpath [//span[contains(text(),'Create New Customer Number')]], Object 'CustomerResults' Found in 556 ms
+[DONE]   | Clicking on CustomerResults
+
+===================================================================================================
+
+Step:10  | Object: AgencyProdCode | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:27:04.004
+Using @name [AgencyProdCode], Object 'AgencyProdCode' Found in 39 ms
+[DONE]   | Clicking on AgencyProdCode
+
+===================================================================================================
+
+Step:11  | Object: AgencyProdCode | Action: Set | Input: @6600000 | Conditon:  | @02-Aug-2017 00:27:05.005
+Using @name [AgencyProdCode], Object 'AgencyProdCode' Found in 30 ms
+[DONE]   | Entered Text '6600000' on 'AgencyProdCode'
+
+===================================================================================================
+
+Step:12  | Object: Toggle Navigation Hanover SYED | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:27:05.005
+Using @relative_xpath [//body], Object 'Toggle Navigation Hanover SYED' Found in 32 ms
+[DONE]   | Clicking on Toggle Navigation Hanover SYED
+
+===================================================================================================
+
+Step:13  | Object: NamedInsuredFirstName | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:27:06.006
+Using @name [NamedInsuredFirstName], Object 'NamedInsuredFirstName' Found in 47 ms
+2017-08-02 00:27:06:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [NamedInsuredFirstName] is Not Visible or hidden at the moment
+com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [NamedInsuredFirstName] is Not Visible or hidden at the moment
+	at com.cognizant.cognizantits.engine.commands.General.elementEnabled(General.java:64)
+	at com.cognizant.cognizantits.engine.commands.Basic.Click(Basic.java:45)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [NamedInsuredFirstName] is Not Visible or hidden at the moment
+
+===================================================================================================
+
+Step:14  | Object: NamedInsuredFirstName | Action: Set | Input: @Auto | Conditon:  | @02-Aug-2017 00:27:11.011
+Using @name [NamedInsuredFirstName], Object 'NamedInsuredFirstName' Found in 20 ms
+[DONE]   | Entered Text 'Auto' on 'NamedInsuredFirstName'
+
+===================================================================================================
+
+Step:15  | Object: NamedInsuredLastName | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:27:12.012
+Using @name [NamedInsuredLastName], Object 'NamedInsuredLastName' Found in 33 ms
+[DONE]   | Clicking on NamedInsuredLastName
+
+===================================================================================================
+
+Step:16  | Object: NamedInsuredLastName | Action: Set | Input: @HealthCheck | Conditon:  | @02-Aug-2017 00:27:12.012
+Using @name [NamedInsuredLastName], Object 'NamedInsuredLastName' Found in 27 ms
+[DONE]   | Entered Text 'HealthCheck' on 'NamedInsuredLastName'
+
+===================================================================================================
+
+Step:17  | Object: NamedInsuredGender | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:27:12.012
+Using @name [NamedInsuredGender], Object 'NamedInsuredGender' Found in 37 ms
+[DONE]   | Clicking on NamedInsuredGender
+
+===================================================================================================
+
+Step:18  | Object: NamedInsuredDOB | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:27:13.013
+Using @name [NamedInsuredDOB], Object 'NamedInsuredDOB' Found in 51 ms
+[DONE]   | Clicking on NamedInsuredDOB
+
+===================================================================================================
+
+Step:19  | Object: NamedInsuredDOB | Action: Set | Input: @04-04-1993 | Conditon:  | @02-Aug-2017 00:27:13.013
+Using @name [NamedInsuredDOB], Object 'NamedInsuredDOB' Found in 21 ms
+[DONE]   | Entered Text '04-04-1993' on 'NamedInsuredDOB'
+
+===================================================================================================
+
+Step:20  | Object: Insured Information | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:27:13.013
+Using @relative_xpath [(//*[normalize-space(text())='Insured Information'])[2]], Object 'Insured Information' Found in 58 ms
+[DONE]   | Clicking on Insured Information
+
+===================================================================================================
+
+Step:21  | Object: LocationAddressLine1 | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:27:14.014
+Using @name [LocationAddressLine1], Object 'LocationAddressLine1' Found in 71 ms
+[DONE]   | Clicking on LocationAddressLine1
+
+===================================================================================================
+
+Step:22  | Object: LocationAddressLine1 | Action: Set | Input: @6433 FIR ROAD | Conditon:  | @02-Aug-2017 00:27:14.014
+Using @name [LocationAddressLine1], Object 'LocationAddressLine1' Found in 26 ms
+[DONE]   | Entered Text '6433 FIR ROAD' on 'LocationAddressLine1'
+
+===================================================================================================
+
+Step:23  | Object: Toggle Navigation Hanover SYED | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:27:14.014
+Using @relative_xpath [//body], Object 'Toggle Navigation Hanover SYED' Found in 19 ms
+[DONE]   | Clicking on Toggle Navigation Hanover SYED
+
+===================================================================================================
+
+Step:24  | Object: LocationAddressZip | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:27:15.015
+Using @name [LocationAddressZip], Object 'LocationAddressZip' Found in 37 ms
+2017-08-02 00:27:15:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:org.openqa.selenium.WebDriverException: unknown error: Element <input type="text" class="form-control" name="LocationAddressZip" autocomplete="off" id="LocationAddressZip" size="12" maxlength="10" value="" tabindex="23" data-original-title="" title=""> is not clickable at point (680, 323). Other element would receive the click: <div class="modal-backdrop fade"></div>
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 364 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'A5DAFC-W7A-0011', ip: '10.43.137.79', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\bpstestr\AppData\Local\Temp\scoped_dir10156_28910}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d157aa74ee471d045954a8a1cf80e775
+org.openqa.selenium.WebDriverException: unknown error: Element <input type="text" class="form-control" name="LocationAddressZip" autocomplete="off" id="LocationAddressZip" size="12" maxlength="10" value="" tabindex="23" data-original-title="" title=""> is not clickable at point (680, 323). Other element would receive the click: <div class="modal-backdrop fade"></div>
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 364 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'A5DAFC-W7A-0011', ip: '10.43.137.79', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\bpstestr\AppData\Local\Temp\scoped_dir10156_28910}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d157aa74ee471d045954a8a1cf80e775
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at com.cognizant.cognizantits.engine.commands.Basic.Click(Basic.java:46)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | org.openqa.selenium.WebDriverException: unknown error: Element <input type="text" class="form-control" name="LocationAddressZip" autocomplete="off" id="LocationAddressZip" size="12" maxlength="10" value="" tabindex="23" data-original-title="" title=""> is not clickable at point (680, 323). Other element would receive the click: <div class="modal-backdrop fade"></div>
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 364 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'A5DAFC-W7A-0011', ip: '10.43.137.79', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\bpstestr\AppData\Local\Temp\scoped_dir10156_28910}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d157aa74ee471d045954a8a1cf80e775
+
+===================================================================================================
+
+Step:25  | Object: LocationAddressZip | Action: Set | Input: @18104 | Conditon:  | @02-Aug-2017 00:27:20.020
+Using @name [LocationAddressZip], Object 'LocationAddressZip' Found in 19 ms
+[DONE]   | Entered Text '18104' on 'LocationAddressZip'
+
+===================================================================================================
+
+Step:26  | Object: EffectiveDate | Action: waitForElementToBeInVisible | Input:  | Conditon:  | @02-Aug-2017 00:27:20.020
+Using @name [EffectiveDate], Object 'EffectiveDate' Found in 37 ms
+2017-08-02 00:27:30:08S -0400 [OFF ] com.cognizant.cognizantits.engine.commands.WaitFor waitFor:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for condition to not be valid: visibility of [[ChromeDriver: chrome on XP (d157aa74ee471d045954a8a1cf80e775)] -> name: EffectiveDate] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'A5DAFC-W7A-0011', ip: '10.43.137.79', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\bpstestr\AppData\Local\Temp\scoped_dir10156_28910}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d157aa74ee471d045954a8a1cf80e775
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitFor(WaitFor.java:262)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitFor(WaitFor.java:240)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitFor(WaitFor.java:233)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitForElement(WaitFor.java:226)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitForElementToBeInVisible(WaitFor.java:93)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[DEBUG]   | Couldn't wait for action to complete in given time - 10 seconds
+
+===================================================================================================
+
+Step:27  | Object: EffectiveDate | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:27:30.030
+Using @name [EffectiveDate], Object 'EffectiveDate' Found in 36 ms
+[DONE]   | Clicking on EffectiveDate
+
+===================================================================================================
+
+Step:28  | Object: EffectiveDate | Action: Set | Input: @08-01-2017 | Conditon:  | @02-Aug-2017 00:27:30.030
+Using @name [EffectiveDate], Object 'EffectiveDate' Found in 36 ms
+2017-08-02 00:27:33:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:org.openqa.selenium.WebDriverException: unknown error: cannot focus element
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.20 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'A5DAFC-W7A-0011', ip: '10.43.137.79', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\bpstestr\AppData\Local\Temp\scoped_dir10156_28910}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d157aa74ee471d045954a8a1cf80e775
+org.openqa.selenium.WebDriverException: unknown error: cannot focus element
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.20 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'A5DAFC-W7A-0011', ip: '10.43.137.79', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\bpstestr\AppData\Local\Temp\scoped_dir10156_28910}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d157aa74ee471d045954a8a1cf80e775
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+	at com.cognizant.cognizantits.engine.commands.Basic.Set(Basic.java:99)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | org.openqa.selenium.WebDriverException: unknown error: cannot focus element
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.20 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'A5DAFC-W7A-0011', ip: '10.43.137.79', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\bpstestr\AppData\Local\Temp\scoped_dir10156_28910}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d157aa74ee471d045954a8a1cf80e775
+
+===================================================================================================
+
+Step:29  | Object: LapseInCoverage | Action: waitForElementToContainValue | Input: @No Lapse | Conditon:  | @02-Aug-2017 00:27:38.038
+Using @id [LapseInCoverage], Object 'LapseInCoverage' Found in 31 ms
+2017-08-02 00:27:52:08S -0400 [OFF ] com.cognizant.cognizantits.engine.commands.WaitFor waitFor:null
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.19 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'A5DAFC-W7A-0011', ip: '10.43.137.79', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\bpstestr\AppData\Local\Temp\scoped_dir10156_28910}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d157aa74ee471d045954a8a1cf80e775
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.ui.ExpectedConditions$14.apply(ExpectedConditions.java:415)
+	at org.openqa.selenium.support.ui.ExpectedConditions$14.apply(ExpectedConditions.java:411)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitFor(WaitFor.java:280)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitFor(WaitFor.java:240)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitFor(WaitFor.java:233)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitForElement(WaitFor.java:226)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitForElementToContainValue(WaitFor.java:121)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[DEBUG]   | Couldn't wait for action to complete in given time - 10 seconds
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : NewScenario:NewTestCase0
+Executed Steps       : 29
+Passed Steps         : 24
+Failed Steps         : 5
+Time Taken           : 00:01:13
+-----------------------------------------------------
+
+Run Finished on Wed Aug 02 00:27:54 EDT 2017
+-----------------------------------------------------
+ExecutionDate        : 02-Aug-2017 00-26-40
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:01:13
+ReportPath           : file:///C:\Users\bpstestr\Desktop\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\NewScenario\NewTestCase0\02-Aug-2017 00-26-40\summary.html
+-----------------------------------------------------

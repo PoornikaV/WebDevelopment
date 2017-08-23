@@ -1,0 +1,38 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_131
+java.home            : C:\Program Files\Java\jre1.8.0_131
+os.name              : Windows 7
+os.arch              : x86
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Fri Aug 04 00:33:52 EDT 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:Automobile] [TestCase: Auto] [Description: Test Run] [Browser: IE] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+2017-08-04 00:39:16:08S -0400 [INFO] com.cognizant.cognizantits.ide.main.Main finish:Cognizant Intelligent Test Scripter IDE has been Terminated - [ Total Time : 00:11:06.637 ]
+Run Finished on Fri Aug 04 00:39:16 EDT 2017
+Run Finished on Fri Aug 04 00:39:16 EDT 2017
+-----------------------------------------------------
+ExecutionDate        : 04-Aug-2017 00-33-52
+Executed TestCases   : 0
+Passed TestCases     : 0
+Failed TestCases     : 0
+Time Taken           : 00:05:24
+ReportPath           : file:///C:\Poorni\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\Automobile\Auto\04-Aug-2017 00-33-52\summary.html
+-----------------------------------------------------
+-----------------------------------------------------
+ExecutionDate        : 04-Aug-2017 00-33-52
+Executed TestCases   : 0
+Passed TestCases     : 0
+Failed TestCases     : 0
+Time Taken           : 00:05:24
+ReportPath           : file:///C:\Poorni\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\Automobile\Auto\04-Aug-2017 00-33-52\summary.html
+-----------------------------------------------------

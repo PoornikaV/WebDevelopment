@@ -1,0 +1,1501 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_131
+java.home            : C:\Program Files\Java\jre1.8.0_131
+os.name              : Windows 7
+os.arch              : x86
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Thu Aug 03 06:39:17 EDT 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:Automobile] [TestCase: Auto] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 14366
+Only local connections are allowed.
+2017-08-03 06:39:26:08S -0400 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:2   | Object: Browser | Action: Open | Input: @http://tapuat.allmerica.com/personal | Conditon:  | @03-Aug-2017 06:39:26.026
+[DONE]   | Opened Url: http://tapuat.allmerica.com/personal
+
+===================================================================================================
+
+Step:1   | Object: User ID | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:39:28.028
+Using @name [user], Object 'User ID' Found in 42 ms
+[DONE]   | Page Element[User ID] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[User ID] is clicked
+
+===================================================================================================
+
+Step:2   | Object: User ID | Action: enterTxtInputByFluentWait | Input: @sha566 | Conditon:  | @03-Aug-2017 06:39:29.029
+Using @name [user], Object 'User ID' Found in 14 ms
+[PASS]   | Entered Text 'sha566' on 'User ID'
+
+===================================================================================================
+
+Step:3   | Object: Password | Action: enterTxtInputByFluentWait | Input: @rsa123 | Conditon:  | @03-Aug-2017 06:39:29.029
+Using @name [password], Object 'Password' Found in 33 ms
+[PASS]   | Entered Text 'rsa123' on 'Password'
+
+===================================================================================================
+
+Step:4   | Object: Continue | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:39:30.030
+Using @relative_xpath [//button[@value='Log-in']], Object 'Continue' Found in 33 ms
+[DONE]   | Page Element[Continue] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Continue] is clicked
+
+===================================================================================================
+
+Step:1   | Object: hover-color | Action: Click | Input:  | Conditon:  | @03-Aug-2017 06:39:39.039
+Using @relative_xpath [//h4[contains(text(),'Automobile')]], Object 'hover-color' Found in 32 ms
+[DONE]   | Clicking on hover-color
+
+===================================================================================================
+
+Step:1   | Object: NewCustomerObject | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:39:41.041
+Using @id [select2-chosen-2], Object 'NewCustomerObject' Found in 107 ms
+[DONE]   | Page Element[NewCustomerObject] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[NewCustomerObject] is clicked
+
+===================================================================================================
+
+Step:2   | Object: Customer Search | Action: enterTxtInputByFluentWait | Input: @create new customer number | Conditon:  | @03-Aug-2017 06:39:41.041
+Using @id [s2id_autogen2_search], Object 'Customer Search' Found in 49 ms
+[PASS]   | Entered Text 'create new customer number' on 'Customer Search'
+
+===================================================================================================
+
+Step:3   | Object: CustomerResults | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:39:43.043
+Using @relative_xpath [//span[contains(text(),'Create New Customer Number')]], Object 'CustomerResults' Found in 42 ms
+[DONE]   | Page Element[CustomerResults] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[CustomerResults] is clicked
+
+===================================================================================================
+
+Step:4   | Object: AgencyProdCode | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:39:43.043
+Using @name [AgencyProdCode], Object 'AgencyProdCode' Found in 41 ms
+[DONE]   | Page Element[AgencyProdCode] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[AgencyProdCode] is clicked
+
+===================================================================================================
+
+Step:5   | Object: AgencyProdCode | Action: enterTxtInputByFluentWait | Input: @6600000 | Conditon:  | @03-Aug-2017 06:39:43.043
+Using @name [AgencyProdCode], Object 'AgencyProdCode' Found in 50 ms
+[PASS]   | Entered Text '6600000' on 'AgencyProdCode'
+
+===================================================================================================
+
+Step:6   | Object: Toggle Navigation Hanover SYED | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:39:44.044
+Using @relative_xpath [//body], Object 'Toggle Navigation Hanover SYED' Found in 30 ms
+[DONE]   | Page Element[Toggle Navigation Hanover SYED] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Toggle Navigation Hanover SYED] is clicked
+
+===================================================================================================
+
+Step:7   | Object: NamedInsuredFirstName | Action: waitForElementToBeClickable | Input:  | Conditon:  | @03-Aug-2017 06:39:44.044
+Using @name [NamedInsuredFirstName], Object 'NamedInsuredFirstName' Found in 101 ms
+[DONE]   | 'NamedInsuredFirstName' Element becomes Clickable in stipulated time
+
+===================================================================================================
+
+Step:8   | Object: NamedInsuredFirstName | Action: enterTxtInputByFluentWait | Input: @Auto | Conditon:  | @03-Aug-2017 06:39:46.046
+Using @name [NamedInsuredFirstName], Object 'NamedInsuredFirstName' Found in 16 ms
+[PASS]   | Entered Text 'Auto' on 'NamedInsuredFirstName'
+
+===================================================================================================
+
+Step:9   | Object: NamedInsuredLastName | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:39:47.047
+Using @name [NamedInsuredLastName], Object 'NamedInsuredLastName' Found in 39 ms
+[DONE]   | Page Element[NamedInsuredLastName] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[NamedInsuredLastName] is clicked
+
+===================================================================================================
+
+Step:10  | Object: NamedInsuredLastName | Action: enterTxtInputByFluentWait | Input: @HealthCheck | Conditon:  | @03-Aug-2017 06:39:47.047
+Using @name [NamedInsuredLastName], Object 'NamedInsuredLastName' Found in 23 ms
+[PASS]   | Entered Text 'HealthCheck' on 'NamedInsuredLastName'
+
+===================================================================================================
+
+Step:11  | Object: NamedInsuredGender | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:39:48.048
+Using @name [NamedInsuredGender], Object 'NamedInsuredGender' Found in 67 ms
+[DONE]   | Page Element[NamedInsuredGender] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[NamedInsuredGender] is clicked
+
+===================================================================================================
+
+Step:12  | Object: NamedInsuredDOB | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:39:48.048
+Using @name [NamedInsuredDOB], Object 'NamedInsuredDOB' Found in 41 ms
+[DONE]   | Page Element[NamedInsuredDOB] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[NamedInsuredDOB] is clicked
+
+===================================================================================================
+
+Step:13  | Object: NamedInsuredDOB | Action: enterTxtInputByFluentWait | Input: @04-04-1993 | Conditon:  | @03-Aug-2017 06:39:48.048
+Using @name [NamedInsuredDOB], Object 'NamedInsuredDOB' Found in 16 ms
+[PASS]   | Entered Text '04-04-1993' on 'NamedInsuredDOB'
+
+===================================================================================================
+
+Step:14  | Object: Insured Information | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:39:49.049
+Using @relative_xpath [(//*[normalize-space(text())='Insured Information'])[2]], Object 'Insured Information' Found in 31 ms
+[DONE]   | Page Element[Insured Information] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Insured Information] is clicked
+
+===================================================================================================
+
+Step:15  | Object: LocationAddressLine1 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:39:49.049
+Using @name [LocationAddressLine1], Object 'LocationAddressLine1' Found in 34 ms
+[DONE]   | Page Element[LocationAddressLine1] is enabled
+
+===================================================================================================
+
+[PASS]   | Page Element[LocationAddressLine1] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[LocationAddressLine1] is not in sync- Trying again
+
+===================================================================================================
+
+[DONE]   | Page Element[LocationAddressLine1] is clicked
+
+===================================================================================================
+
+Step:16  | Object: LocationAddressLine1 | Action: enterTxtInputByFluentWait | Input: @6433 FIR ROAD | Conditon:  | @03-Aug-2017 06:39:52.052
+Using @name [LocationAddressLine1], Object 'LocationAddressLine1' Found in 23 ms
+[PASS]   | Entered Text '6433 FIR ROAD' on 'LocationAddressLine1'
+
+===================================================================================================
+
+Step:17  | Object: Toggle Navigation Hanover SYED | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:39:53.053
+Using @relative_xpath [//body], Object 'Toggle Navigation Hanover SYED' Found in 19 ms
+[DONE]   | Page Element[Toggle Navigation Hanover SYED] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Toggle Navigation Hanover SYED] is clicked
+
+===================================================================================================
+
+Step:18  | Object: LocationAddressZip | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:39:53.053
+Using @name [LocationAddressZip], Object 'LocationAddressZip' Found in 37 ms
+[DONE]   | Page Element[LocationAddressZip] is enabled
+
+===================================================================================================
+
+[PASS]   | Page Element[LocationAddressZip] is not in sync- Trying again
+
+===================================================================================================
+
+[DONE]   | Page Element[LocationAddressZip] is clicked
+
+===================================================================================================
+
+Step:19  | Object: LocationAddressZip | Action: enterTxtInputByFluentWait | Input: @18104 | Conditon:  | @03-Aug-2017 06:39:54.054
+Using @name [LocationAddressZip], Object 'LocationAddressZip' Found in 17 ms
+[PASS]   | Entered Text '18104' on 'LocationAddressZip'
+
+===================================================================================================
+
+Step:20  | Object: LocationAddressLine1 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:39:55.055
+Using @name [LocationAddressLine1], Object 'LocationAddressLine1' Found in 20 ms
+[DONE]   | Page Element[LocationAddressLine1] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[LocationAddressLine1] is clicked
+
+===================================================================================================
+
+Step:21  | Object: EffectiveDate | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:39:55.055
+Using @name [EffectiveDate], Object 'EffectiveDate' Found in 47 ms
+[DONE]   | Page Element[EffectiveDate] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[EffectiveDate] is clicked
+
+===================================================================================================
+
+Step:22  | Object: EffectiveDate | Action: enterTxtInputByFluentWait | Input: @08-01-2017 | Conditon:  | @03-Aug-2017 06:39:55.055
+Using @name [EffectiveDate], Object 'EffectiveDate' Found in 29 ms
+[PASS]   | Entered Text '08-01-2017' on 'EffectiveDate'
+
+===================================================================================================
+
+Step:23  | Object: LapseInCoverage | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @No Lapse | Conditon:  | @03-Aug-2017 06:39:56.056
+Using @id [LapseInCoverage], Object 'LapseInCoverage' Found in 32 ms
+[DONE]   | Page Element[LapseInCoverage] is enabled
+
+===================================================================================================
+
+[PASS]   | Page Element[LapseInCoverage] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[LapseInCoverage] is not in sync- Trying again
+
+===================================================================================================
+
+[DONE]   | Page Element[LapseInCoverage] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: No Lapse in the Dropdown: 
+
+===================================================================================================
+
+Step:24  | Object: PriorBILimit | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @Less Than Or Equal To State Minimum | Conditon:  | @03-Aug-2017 06:40:00.000
+Using @name [PriorBILimit], Object 'PriorBILimit' Found in 42 ms
+[DONE]   | Page Element[PriorBILimit] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[PriorBILimit] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: Less Than Or Equal To State Minimum in the Dropdown: 
+
+===================================================================================================
+
+Step:25  | Object: Continue | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:40:01.001
+Using @name [continueButton], Object 'Continue' Found in 31 ms
+[DONE]   | Page Element[Continue] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Continue] is clicked
+
+===================================================================================================
+
+Step:1   | Object: Edit | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:40:08.008
+Using @link_text [Edit], Object 'Edit' Found in 85 ms
+[DONE]   | Page Element[Edit] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Edit] is clicked
+
+===================================================================================================
+
+Step:2   | Object: DriverMaritalStatus | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @Single | Conditon:  | @03-Aug-2017 06:40:09.009
+Using @name [DriverMaritalStatus], Object 'DriverMaritalStatus' Found in 50 ms
+[DONE]   | Page Element[DriverMaritalStatus] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[DriverMaritalStatus] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: Single in the Dropdown: 
+
+===================================================================================================
+
+Step:3   | Object: DriverStatus | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @Principal | Conditon:  | @03-Aug-2017 06:40:11.011
+Using @name [DriverStatus], Object 'DriverStatus' Found in 42 ms
+[DONE]   | Page Element[DriverStatus] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[DriverStatus] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: Principal in the Dropdown: 
+
+===================================================================================================
+
+Step:4   | Object: DriverLicenseNumber | Action: enterTxtInputByFluentWait | Input: @W20007259333 | Conditon:  | @03-Aug-2017 06:40:12.012
+Using @name [DriverLicenseNumber], Object 'DriverLicenseNumber' Found in 30 ms
+[PASS]   | Entered Text 'W20007259333' on 'DriverLicenseNumber'
+
+===================================================================================================
+
+Step:5   | Object: DriverLicenseState | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @Illinois | Conditon:  | @03-Aug-2017 06:40:12.012
+Using @name [DriverLicenseState], Object 'DriverLicenseState' Found in 47 ms
+[DONE]   | Page Element[DriverLicenseState] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[DriverLicenseState] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: Illinois in the Dropdown: 
+
+===================================================================================================
+
+Step:6   | Object: Save1 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:40:13.013
+Using @name [saveButton], Object 'Save1' Found in 29 ms
+[DONE]   | Page Element[Save1] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Save1] is clicked
+
+===================================================================================================
+
+Step:7   | Object: Continue1 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:40:16.016
+Using @name [continueButton], Object 'Continue1' Found in 57 ms
+[DONE]   | Page Element[Continue1] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Continue1] is clicked
+
+===================================================================================================
+
+Step:8   | Object: Add New | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:40:17.017
+Using @id [rosterAddNewBtn], Object 'Add New' Found in 39 ms
+[DONE]   | Page Element[Add New] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Add New] is clicked
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @03-Aug-2017 06:40:17.017
+[DONE]   | Page load completed in stipulated time
+
+===================================================================================================
+
+Step:2   | Object: IncidentDriver | Action: selectDropDown_UsingIndexByFluentWait | Input: @01 | Conditon:  | @03-Aug-2017 06:40:17.017
+Using @name [IncidentDriver], Object 'IncidentDriver' Found in 49 ms
+[PASS]   | Selected value with index : 01 in the Dropdown: 
+
+===================================================================================================
+
+Step:3   | Object: IncidentDate | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:40:18.018
+Using @name [IncidentDate], Object 'IncidentDate' Found in 32 ms
+[DONE]   | Page Element[IncidentDate] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[IncidentDate] is clicked
+
+===================================================================================================
+
+Step:4   | Object: IncidentDate | Action: enterTxtInputByFluentWait | Input: @06-07-2016 | Conditon:  | @03-Aug-2017 06:40:18.018
+Using @name [IncidentDate], Object 'IncidentDate' Found in 28 ms
+[PASS]   | Entered Text '06-07-2016' on 'IncidentDate'
+
+===================================================================================================
+
+Step:5   | Object: IncidentType | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @Violation - Speeding | Conditon:  | @03-Aug-2017 06:40:18.018
+Using @name [IncidentType], Object 'IncidentType' Found in 31 ms
+[DONE]   | Page Element[IncidentType] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[IncidentType] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: Violation - Speeding in the Dropdown: 
+
+===================================================================================================
+
+Step:6   | Object: Save2 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:40:19.019
+Using @name [addButton], Object 'Save2' Found in 29 ms
+[DONE]   | Page Element[Save2] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Save2] is clicked
+
+===================================================================================================
+
+Step:7   | Object: Continue1 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:40:20.020
+Using @name [continueButton], Object 'Continue1' Found in 44 ms
+[DONE]   | Page Element[Continue1] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Continue1] is clicked
+
+===================================================================================================
+
+Step:1   | Object: VehicleVIN | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:40:21.021
+Using @name [VehicleVIN], Object 'VehicleVIN' Found in 76 ms
+[DONE]   | Page Element[VehicleVIN] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[VehicleVIN] is clicked
+
+===================================================================================================
+
+Step:2   | Object: VehicleVIN | Action: enterTxtInputByFluentWait | Input: @JTDZN3EU9C3085073 | Conditon:  | @03-Aug-2017 06:40:22.022
+Using @name [VehicleVIN], Object 'VehicleVIN' Found in 42 ms
+[PASS]   | Entered Text 'JTDZN3EU9C3085073' on 'VehicleVIN'
+
+===================================================================================================
+
+Step:3   | Object: 2012 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:40:23.023
+Using @xpath [(/html/body/div/div[15]/div/div[2]/div/div[3]/span/form/div[3]/fieldset/div[3]/div)[1]], Object '2012' Found in 62 ms
+[DONE]   | Page Element[2012] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[2012] is clicked
+
+===================================================================================================
+
+Step:4   | Object: VehicleUsage | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @Pleasure | Conditon:  | @03-Aug-2017 06:40:23.023
+Using @name [VehicleUsage], Object 'VehicleUsage' Found in 32 ms
+[DONE]   | Page Element[VehicleUsage] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[VehicleUsage] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: Pleasure in the Dropdown: 
+
+===================================================================================================
+
+Step:5   | Object: Save3 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:40:24.024
+Using @name [addButton], Object 'Save3' Found in 21 ms
+[DONE]   | Page Element[Save3] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Save3] is clicked
+
+===================================================================================================
+
+Step:6   | Object: Continue2 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:40:24.024
+Using @name [continueButton], Object 'Continue2' Found in 19 ms
+[DONE]   | Page Element[Continue2] is enabled
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue2] is not in sync- Trying again
+
+===================================================================================================
+
+2017-08-03 06:40:55:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@1a0f912 (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@1a0f912 (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.custommethods.CustomMethods.ClickObjectByFluentWait(CustomMethods.java:35)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:368)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:121)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:105)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:57)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@1a0f912 (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+
+===================================================================================================
+
+Step:9   | Object: VehicleLiabilityLimit | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @100/300/50 | Conditon:  | @03-Aug-2017 06:40:55.055
+Using @relative_xpath [//fieldset[2]/div[2]/div/span/div/select], Object 'VehicleLiabilityLimit' Found in 89 ms
+[DONE]   | Page Element[VehicleLiabilityLimit] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[VehicleLiabilityLimit] is clicked
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Dropdown 100/300/50 is not displayed - trying again.
+
+===================================================================================================
+
+2017-08-03 06:41:25:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$3@144f48e (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$3@144f48e (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.custommethods.CustomMethods.selectDropDown_UsingVisibleTextByFluentWait(CustomMethods.java:88)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$3@144f48e (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+
+===================================================================================================
+
+Step:10  | Object: PolicyCovMedicalExpBen | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @5,000 | Conditon:  | @03-Aug-2017 06:41:26.026
+Using @class [form-control], Object 'PolicyCovMedicalExpBen' Found in 206 ms
+[DONE]   | Page Element[PolicyCovMedicalExpBen] is enabled
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovMedicalExpBen] is not in sync- Trying again
+
+===================================================================================================
+
+2017-08-03 06:41:56:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@d63668 (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@d63668 (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.custommethods.CustomMethods.ClickObjectByFluentWait(CustomMethods.java:35)
+	at com.cognizant.cognizantits.engine.custommethods.CustomMethods.selectDropDown_UsingVisibleTextByFluentWait(CustomMethods.java:82)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@d63668 (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+
+===================================================================================================
+
+Step:11  | Object: VehicleUninsuredUnderinsuredSplitLimits | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @15/30 | Conditon:  | @03-Aug-2017 06:41:56.056
+Using @class [form-control], Object 'VehicleUninsuredUnderinsuredSplitLimits' Found in 152 ms
+[DONE]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is enabled
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is not in sync- Trying again
+
+===================================================================================================
+
+2017-08-03 06:42:27:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@f43a85 (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@f43a85 (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.custommethods.CustomMethods.ClickObjectByFluentWait(CustomMethods.java:35)
+	at com.cognizant.cognizantits.engine.custommethods.CustomMethods.selectDropDown_UsingVisibleTextByFluentWait(CustomMethods.java:82)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@f43a85 (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+
+===================================================================================================
+
+Step:12  | Object: PolicyCovTypeResOwned | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @1-4 Family Dwelling | Conditon:  | @03-Aug-2017 06:42:27.027
+Using @class [form-control], Object 'PolicyCovTypeResOwned' Found in 143 ms
+[DONE]   | Page Element[PolicyCovTypeResOwned] is enabled
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[PolicyCovTypeResOwned] is not in sync- Trying again
+
+===================================================================================================
+
+2017-08-03 06:42:58:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@1660941 (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@1660941 (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.custommethods.CustomMethods.ClickObjectByFluentWait(CustomMethods.java:35)
+	at com.cognizant.cognizantits.engine.custommethods.CustomMethods.selectDropDown_UsingVisibleTextByFluentWait(CustomMethods.java:82)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@1660941 (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+
+===================================================================================================
+
+Step:13  | Object: PolicyCovResOwned | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:42:58.058
+Using @class [radio], Object 'PolicyCovResOwned' Found in 146 ms
+[DONE]   | Page Element[PolicyCovResOwned] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[PolicyCovResOwned] is clicked
+
+===================================================================================================
+
+Step:14  | Object: Continue to Summary | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:42:59.059
+Using @name [continueButton], Object 'Continue to Summary' Found in 36 ms
+[DONE]   | Page Element[Continue to Summary] is enabled
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue to Summary] is not in sync- Trying again
+
+===================================================================================================
+
+2017-08-03 06:43:29:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@ade084 (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@ade084 (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.custommethods.CustomMethods.ClickObjectByFluentWait(CustomMethods.java:35)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@ade084 (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+
+===================================================================================================
+
+Step:15  | Object: Continue3 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:43:30.030
+Using @relative_xpath [(//input[@value='Continue'])[1]], Object 'Continue3' Found in 66 ms
+[DONE]   | Page Element[Continue3] is enabled
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue3] is not in sync- Trying again
+
+===================================================================================================
+
+Couldn't take ScreenShot Driver is closed or connection is lost with driver
+2017-08-03 06:44:07:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@180bead (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@180bead (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.custommethods.CustomMethods.ClickObjectByFluentWait(CustomMethods.java:35)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$1@180bead (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+
+===================================================================================================
+
+Couldn't take ScreenShot Driver is closed or connection is lost with driver
+Step:16  | Object: Order All Reports | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 06:44:11.011
+2017-08-03 06:44:15:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.core.Task runIteration:Driver Chrome Closed / Could not be reached
+com.cognizant.cognizantits.engine.execution.exception.DriverClosedException: Driver Chrome Closed / Could not be reached
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.isAlive(SeleniumDriver.java:143)
+	at com.cognizant.cognizantits.engine.core.CommandControl.canIFindElement(CommandControl.java:103)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:92)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:170)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:143)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Automobile:Auto
+Executed Steps       : 281
+Passed Steps         : 273
+Failed Steps         : 8
+Time Taken           : 00:04:59
+-----------------------------------------------------
+
+Run Finished on Thu Aug 03 06:44:16 EDT 2017
+-----------------------------------------------------
+ExecutionDate        : 03-Aug-2017 06-39-17
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:04:59
+ReportPath           : file:///C:\Poorni\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\Automobile\Auto\03-Aug-2017 06-39-17\summary.html
+-----------------------------------------------------

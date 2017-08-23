@@ -1,0 +1,309 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_92
+java.home            : C:\Program Files\Java\jre1.8.0_92
+os.name              : Windows 7
+os.arch              : x86
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Fri Jul 28 06:48:54 EDT 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:NewScenario] [TestCase: NewTestCase] [Description: Test Run] [Browser: Firefox] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Firefox
+Launching Local Driver
+1501238936831	geckodriver	INFO	Listening on 127.0.0.1:47930
+1501238937202	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501238938596	addons.manager	DEBUG	Application has been upgraded
+1501238939023	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1501238939028	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1501238939036	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1501238939044	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1501238939048	addons.manager	DEBUG	Starting provider: XPIProvider
+1501238939050	addons.xpi	DEBUG	startup
+1501238939052	addons.xpi	INFO	Removing all system add-on upgrades.
+1501238939055	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1501238939059	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1501238939064	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1501238939067	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1501238939069	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1501238939072	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1501238939076	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1501238939079	addons.xpi	DEBUG	checkForChanges
+1501238939081	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1501238939083	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1501238939086	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1501238939088	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1501238939090	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1501238939092	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1501238939095	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1501238939098	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1501238939100	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1501238939102	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1501238939105	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1501238939108	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1501238939110	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1501238939112	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1501238939115	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-system-defaults":{"aushelper@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","st":1498666862000},"e10srollout@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","st":1498666862000},"firefox@getpocket.com":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","st":1498666863000},"screenshots@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","st":1498666863000},"webcompat@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","st":1498666862000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1498666862000}}}
+1501238939137	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\bpstestr\AppData\Local\Temp\rust_mozprofile.8D2IxXBWyQkB\extensions.json
+1501238939143	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1501238939164	DeferredSave.extensions.json	DEBUG	Save changes
+1501238939166	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+1501238939175	DeferredSave.extensions.json	DEBUG	Starting timer
+1501238939179	DeferredSave.extensions.json	DEBUG	Save changes
+1501238939181	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1501238939274	DeferredSave.extensions.json	DEBUG	Save changes
+1501238939274	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1501238939310	DeferredSave.extensions.json	DEBUG	Save changes
+1501238939312	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1501238939326	DeferredSave.extensions.json	DEBUG	Save changes
+1501238939329	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1501238939345	DeferredSave.extensions.json	DEBUG	Save changes
+1501238939349	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1501238939365	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1501238939374	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1501238939376	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1501238939379	DeferredSave.extensions.json	DEBUG	Save changes
+1501238939382	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+1501238939386	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1501238939394	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.50
+1501238939398	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1501238939401	DeferredSave.extensions.json	DEBUG	Save changes
+1501238939403	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1501238939405	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1501238939414	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1501238939418	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1501238939421	DeferredSave.extensions.json	DEBUG	Save changes
+1501238939422	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1501238939425	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1501238939430	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 6.6.0
+1501238939432	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1501238939435	DeferredSave.extensions.json	DEBUG	Save changes
+1501238939437	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1501238939440	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1501238939446	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.1
+1501238939448	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1501238939451	DeferredSave.extensions.json	DEBUG	Save changes
+1501238939454	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1501238939456	DeferredSave.extensions.json	DEBUG	Save changes
+1501238939458	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{3b84ff77-dddf-44ec-bf38-b1617b05f9dc}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","installDate":1498666862000,"updateDate":1498666862000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1501238939467	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1501238939470	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{21e6a305-d968-4d8f-a670-4af99d289316}","location":"app-system-defaults","version":"1.50","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","installDate":1498666862000,"updateDate":1498666862000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":12519,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1501238939479	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1501238939483	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{23bc74dc-5a56-4bd2-a912-14d4a8abbdd1}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","installDate":1498666863000,"updateDate":1498666863000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":913906,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1501238939491	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1501238939495	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{e36a9277-af1a-4282-8486-abbfdd4552ef}","location":"app-system-defaults","version":"6.6.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","installDate":1498666863000,"updateDate":1498666863000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":716271,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1501238939504	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1501238939507	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{7523ab02-9229-4dfb-b920-cd177d71bbc9}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","installDate":1498666862000,"updateDate":1498666862000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":9006,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1501238939515	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1501238939518	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{80019683-0683-43fc-aebe-9c5d596693b2}","location":"app-global","version":"54.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1498666862000,"updateDate":1498666862000,"applyBackgroundUpdates":1,"skinnable":true,"size":8207,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.0.1"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null}
+1501238939525	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1501238939529	DeferredSave.extensions.json	DEBUG	Save changes
+1501238939532	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1501238939535	addons.xpi-utils	DEBUG	Updating add-on states
+1501238939542	addons.xpi-utils	DEBUG	Writing add-ons list
+1501238939553	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1501238939556	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1501238939561	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1501238939565	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1501238939567	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1501238939570	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1501238939573	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1501238939575	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1501238939577	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1501238939580	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1501238939650	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1501238939653	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1501238939658	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1501238939663	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1501238939665	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1501238939667	addons.manager	DEBUG	Starting provider: GMPProvider
+1501238939685	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1501238939688	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1501238939690	addons.manager	DEBUG	Starting provider: PluginProvider
+1501238939692	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1501238939693	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1501238939697	addons.manager	DEBUG	Completed startup sequence
+1501238940607	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1501238940609	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1501238940613	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1501238941519	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1501238941521	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1501238941522	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1501238941527	DeferredSave.extensions.json	DEBUG	Starting write
+1501238942106	DeferredSave.extensions.json	DEBUG	Write succeeded
+1501238942110	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1501238949449	Marionette	INFO	Listening on port 52865
+1501238949748	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501238949858	Marionette	DEBUG	loaded listener.js
+2017-07-28 06:49:10:07S -0400 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Firefox Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://plworkstationin5.allmerica.com | Conditon:  | @28-Jul-2017 06:49:10.010
+1501238950099	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1501238950378	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1501238950380	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1501238950534	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://signonuat.allmerica.com/ciss/afc_login_controller.jsp?CTAuthMode=BASIC"
+1501238950644	Marionette	DEBUG	Received DOM event "pageshow" for "https://signonuat.allmerica.com/ciss/afc_login_controller.jsp?CTAuthMode=BASIC"
+[DONE]   | Opened Url: https://plworkstationin5.allmerica.com
+
+===================================================================================================
+
+Step:2   | Object: User ID | Action: Set | Input: @dxk886 | Conditon:  | @28-Jul-2017 06:49:10.010
+Using @name [user], Object 'User ID' Found in 81 ms
+[DONE]   | Entered Text 'dxk886' on 'User ID'
+
+===================================================================================================
+
+Step:3   | Object: Password | Action: setEncrypted | Input: @cnNhMTIz Enc | Conditon:  | @28-Jul-2017 06:49:11.011
+Using @name [password], Object 'Password' Found in 24 ms
+[DONE]   | Entered Encrypted Text cnNhMTIz on Password
+
+===================================================================================================
+
+Step:4   | Object: Continue | Action: Click | Input:  | Conditon:  | @28-Jul-2017 06:49:11.011
+Using @relative_xpath [//button[@value='Log-in']], Object 'Continue' Found in 20 ms
+1501238951510	Marionette	DEBUG	Received DOM event "beforeunload" for "https://signonuat.allmerica.com/ciss/afc_login_controller.jsp?CTAuthMode=BASIC"
+1501238952147	Marionette	DEBUG	Received DOM event "pagehide" for "https://signonuat.allmerica.com/ciss/afc_login_controller.jsp?CTAuthMode=BASIC"
+1501238952160	Marionette	DEBUG	Received DOM event "unload" for "https://signonuat.allmerica.com/ciss/afc_login_controller.jsp?CTAuthMode=BASIC"
+1501238954786	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://plworkstationin5.allmerica.com/AgencyPortalPL/DisplayWorkInProgress?WorkListType=WorkItemsView&HomePageMode=true#/CARD"
+1501238960389	Marionette	DEBUG	Received DOM event "pageshow" for "https://plworkstationin5.allmerica.com/AgencyPortalPL/DisplayWorkInProgress?WorkListType=WorkItemsView&HomePageMode=true#/TABULAR"
+[DONE]   | Clicking on Continue
+
+===================================================================================================
+
+Step:5   | Object: hover-color | Action: Click | Input:  | Conditon:  | @28-Jul-2017 06:49:20.020
+Using @relative_xpath [//h4[contains(text(),'Automobile')]], Object 'hover-color' Found in 90 ms
+1501238960854	Marionette	DEBUG	Received DOM event "beforeunload" for "https://plworkstationin5.allmerica.com/AgencyPortalPL/DisplayWorkInProgress?WorkListType=WorkItemsView&HomePageMode=true#/TABULAR"
+1501238961584	Marionette	DEBUG	Received DOM event "pagehide" for "https://plworkstationin5.allmerica.com/AgencyPortalPL/DisplayWorkInProgress?WorkListType=WorkItemsView&HomePageMode=true#/TABULAR"
+1501238961587	Marionette	DEBUG	Received DOM event "unload" for "https://plworkstationin5.allmerica.com/AgencyPortalPL/DisplayWorkInProgress?WorkListType=WorkItemsView&HomePageMode=true#/TABULAR"
+1501238965603	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://plworkstationin5.allmerica.com/AgencyPortalPL/FrontServlet?PAGE_NAME=AgencyApplicantInformationPage&TRANSACTION_NAME=persauto&WORKITEMID=137138&METHOD=Display&TRANSACTIONSTARTPOINT=true&rnd=0.6209216980140346&CSRF_TOKEN=fe693d3be376d514abba068b2fd4221462ff7ffd46a3bc4375b5a4654ba339ce"
+1501238966026	Marionette	DEBUG	Received DOM event "pageshow" for "https://plworkstationin5.allmerica.com/AgencyPortalPL/FrontServlet?PAGE_NAME=AgencyApplicantInformationPage&TRANSACTION_NAME=persauto&WORKITEMID=137138&METHOD=Display&TRANSACTIONSTARTPOINT=true&rnd=0.6209216980140346&CSRF_TOKEN=fe693d3be376d514abba068b2fd4221462ff7ffd46a3bc4375b5a4654ba339ce"
+[DONE]   | Clicking on hover-color
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: switchToWindowByTitle | Input: @Agencyportal | Conditon:  | @28-Jul-2017 06:49:26.026
+[DONE]   | Webdriver switched to new window by title[Agencyportal]
+
+===================================================================================================
+
+Step:7   | Object: Customer Search | Action: waitForElementToBeVisible | Input:  | Conditon:  | @28-Jul-2017 06:49:26.026
+Using @id [s2id_autogen2_search], Object 'Customer Search' Found in 200 ms
+2017-07-28 06:49:37:07S -0400 [OFF ] com.cognizant.cognizantits.engine.commands.WaitFor waitFor:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on ANY (4b3f61f7-65c2-401f-89fe-be37c61e172f)] -> id: s2id_autogen2_search] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'A5DAFC-W7A-0011', ip: '10.43.137.79', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\bpstestr\AppData\Local\Temp\rust_mozprofile.8D2IxXBWyQkB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=54.0.1, platformVersion=6.1, moz:processID=10020.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4b3f61f7-65c2-401f-89fe-be37c61e172f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitFor(WaitFor.java:259)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitFor(WaitFor.java:240)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitFor(WaitFor.java:233)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitForElement(WaitFor.java:226)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitForElementToBeVisible(WaitFor.java:86)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[DEBUG]   | Couldn't wait for action to complete in given time - 10 seconds
+
+===================================================================================================
+
+Step:8   | Object: Customer Search | Action: Set | Input: @Create | Conditon:  | @28-Jul-2017 06:49:37.037
+Using @id [s2id_autogen2_search], Object 'Customer Search' Found in 21 ms
+2017-07-28 06:49:37:07S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [Customer Search] is Not Visible or hidden at the moment
+com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [Customer Search] is Not Visible or hidden at the moment
+	at com.cognizant.cognizantits.engine.commands.General.elementEnabled(General.java:64)
+	at com.cognizant.cognizantits.engine.commands.Basic.Set(Basic.java:97)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [Customer Search] is Not Visible or hidden at the moment
+
+===================================================================================================
+
+Step:9   | Object: Customer Search | Action: clickByJS | Input:  | Conditon:  | @28-Jul-2017 06:49:41.041
+Using @id [s2id_autogen2_search], Object 'Customer Search' Found in 31 ms
+[DONE]   | Clicked on Customer Search
+
+===================================================================================================
+
+Step:10  | Object: AgencyProdCode | Action: Click | Input:  | Conditon:  | @28-Jul-2017 06:49:41.041
+Using @name [AgencyProdCode], Object 'AgencyProdCode' Found in 25 ms
+1501238982174	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[DONE]   | Clicking on AgencyProdCode
+
+===================================================================================================
+
+Step:11  | Object: AgencyProdCode | Action: Set | Input: @6600000 | Conditon:  | @28-Jul-2017 06:49:42.042
+Using @name [AgencyProdCode], Object 'AgencyProdCode' Found in 32 ms
+[DONE]   | Entered Text '6600000' on 'AgencyProdCode'
+
+===================================================================================================
+
+Step:12  | Object: Toggle Navigation Hanover DIVY | Action: Click | Input:  | Conditon:  | @28-Jul-2017 06:49:42.042
+Using @relative_xpath [//body], Object 'Toggle Navigation Hanover DIVY' Found in 29 ms
+1501238983012	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[DONE]   | Clicking on Toggle Navigation Hanover DIVY
+
+===================================================================================================
+
+Step:13  | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @28-Jul-2017 06:49:43.043
+[DONE]   | Page load completed in stipulated time
+
+===================================================================================================
+
+1501238983071	Marionette	INFO	New connections will no longer be accepted
+1501238983145	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1501238983147	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+1501238983148	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1501238983155	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.50
+1501238983157	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+2017-07-28 06:49:46:07S -0400 [SEVERE] org.openqa.selenium.os.UnixProcess destroy:Unable to kill process with PID 9640
+
+---------------------------------------------------
+Testcase Name        : NewScenario:NewTestCase
+Executed Steps       : 13
+Passed Steps         : 11
+Failed Steps         : 2
+Time Taken           : 00:00:51
+-----------------------------------------------------
+
+Run Finished on Fri Jul 28 06:49:46 EDT 2017
+-----------------------------------------------------
+ExecutionDate        : 28-Jul-2017 06-48-54
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:51
+ReportPath           : file:///C:\Users\bpstestr\Desktop\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\NewScenario\NewTestCase\28-Jul-2017 06-48-54\summary.html
+-----------------------------------------------------

@@ -1,0 +1,26 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,NewCustomerObject,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+"*2",Customer Search,Enter the value [<Data>] in the Field [<Object>],enterTxtInputByFluentWait,@create new customer number,,Agencyportal
+3,CustomerResults,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+4,AgencyProdCode,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+5,AgencyProdCode,Enter the value [<Data>] in the Field [<Object>],enterTxtInputByFluentWait,@6600000,,Agencyportal
+6,Toggle Navigation Hanover SYED,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+7,NamedInsuredFirstName,"Wait for [<Object>] to be clickable ",waitForElementToBeClickable,,,Agencyportal
+8,NamedInsuredFirstName,Enter the value [<Data>] in the Field [<Object>],enterTxtInputByFluentWait,@Auto,,Agencyportal
+9,NamedInsuredLastName,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+10,NamedInsuredLastName,Enter the value [<Data>] in the Field [<Object>],enterTxtInputByFluentWait,@HealthCheck,,Agencyportal
+11,NamedInsuredGender,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+12,NamedInsuredDOB,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+13,NamedInsuredDOB,Enter the value [<Data>] in the Field [<Object>],enterTxtInputByFluentWait,@04-04-1993,,Agencyportal
+14,Insured Information,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+15,LocationAddressLine1,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+16,LocationAddressLine1,Enter the value [<Data>] in the Field [<Object>],enterTxtInputByFluentWait,@6433 FIR ROAD,,Agencyportal
+17,Toggle Navigation Hanover SYED,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+18,LocationAddressZip,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+19,LocationAddressZip,Enter the value [<Data>] in the Field [<Object>],enterTxtInputByFluentWait,@18104,,Agencyportal
+20,LocationAddressLine1,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+21,EffectiveDate,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+22,EffectiveDate,Enter the value [<Data>] in the Field [<Object>],enterTxtInputByFluentWait,@08-01-2017,,Agencyportal
+23,LapseInCoverage,Select item in [<Object>] which has text: [<Data>],selectDropDown_UsingVisibleTextByFluentWait,@No Lapse,,Agencyportal
+24,PriorBILimit,Select item in [<Object>] which has text: [<Data>],selectDropDown_UsingVisibleTextByFluentWait,@Less Than Or Equal To State Minimum,,Agencyportal
+25,Continue,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal

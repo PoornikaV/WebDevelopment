@@ -1,0 +1,28 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+"//1",Execute,,Automobile:InvokeApplication,,,
+2,Browser,Open the Url [<Data>] in the Browser,Open,@http://tapuat.allmerica.com/personal,,
+3,Execute,,Automobile:AppLogin,,,
+4,Execute,,Automobile:Automobile,,,
+5,Execute,,Automobile:InsuredInformation,,,
+6,Execute,,Automobile:DriverInformation,,,
+7,Execute,,Automobile:AccidentInformation,,,
+8,Execute,,Automobile:VehicleDetails,,,
+9,VehicleLiabilityLimit,Select item in [<Object>] which has text: [<Data>],selectDropDown_UsingVisibleTextByFluentWait,@100/300/50,,Agencyportal
+10,PolicyCovMedicalExpBen,Select item in [<Object>] which has text: [<Data>],selectDropDown_UsingVisibleTextByFluentWait,"@5,000",,Agencyportal
+11,VehicleUninsuredUnderinsuredSplitLimits,Select item in [<Object>] which has text: [<Data>],selectDropDown_UsingVisibleTextByFluentWait,@15/30,,Agencyportal
+12,PolicyCovTypeResOwned,Select item in [<Object>] which has text: [<Data>],selectDropDown_UsingVisibleTextByFluentWait,@1-4 Family Dwelling,,Agencyportal
+13,PolicyCovResOwned,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+14,Continue to Summary,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+15,Continue3,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+16,Order All Reports,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+17,Continue4,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+18,AllAutoUnderwritingNo,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+19,Continue5,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+20,AgentEMailAddress,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+21,AgentEMailAddress,Enter the value [<Data>] in the Field [<Object>],enterTxtInputByFluentWait,@test@gmail.com,,Agencyportal
+22,Continue5,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+23,Enter Billing Information,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+24,BillingPayPlan,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@Full Pay,,Agencyportal
+25,BillingDownPayMthd,Select item in [<Object>] which has text: [<Data>],selectDropDown_UsingVisibleTextByFluentWait,@Paper Check,,Agencyportal
+26,Continue,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+27,Save and Exit,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal

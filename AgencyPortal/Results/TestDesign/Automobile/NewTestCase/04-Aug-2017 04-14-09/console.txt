@@ -1,0 +1,66 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_131
+java.home            : C:\Program Files\Java\jre1.8.0_131
+os.name              : Windows 7
+os.arch              : x86
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Fri Aug 04 04:14:09 EDT 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:Automobile] [TestCase: NewTestCase] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 3864
+Only local connections are allowed.
+2017-08-04 04:14:16:08S -0400 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://plworkstationin5.allmerica.com | Conditon:  | @04-Aug-2017 04:14:16.016
+[DONE]   | Opened Url: https://plworkstationin5.allmerica.com
+
+===================================================================================================
+
+Step:2   | Object: User ID | Action: Set | Input: TestData1:UserN | Conditon:  | @04-Aug-2017 04:14:17.017
+Using @name [user], Object 'User ID' Found in 96 ms
+[DONE]   | Entered Text 'dxk886' on 'User ID'
+
+===================================================================================================
+
+Step:3   | Object: Password | Action: Set | Input: TestData1:PassW | Conditon:  | @04-Aug-2017 04:14:17.017
+Using @name [password], Object 'Password' Found in 34 ms
+[DONE]   | Entered Text 'rsa123' on 'Password'
+
+===================================================================================================
+
+Step:4   | Object: Continue | Action: Click | Input:  | Conditon:  | @04-Aug-2017 04:17:08.008
+Using @relative_xpath [//button[@value='Log-in']], Object 'Continue' Found in 25 ms
+[DONE]   | Clicking on Continue
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Automobile:NewTestCase
+Executed Steps       : 4
+Passed Steps         : 4
+Failed Steps         : 0
+Time Taken           : 00:03:07
+-----------------------------------------------------
+
+Run Finished on Fri Aug 04 04:17:16 EDT 2017
+-----------------------------------------------------
+ExecutionDate        : 04-Aug-2017 04-14-09
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:03:07
+ReportPath           : file:///C:\Poorni\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\Automobile\NewTestCase\04-Aug-2017 04-14-09\summary.html
+-----------------------------------------------------

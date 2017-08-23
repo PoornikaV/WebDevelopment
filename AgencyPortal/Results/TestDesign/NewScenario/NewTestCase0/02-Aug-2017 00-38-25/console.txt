@@ -1,0 +1,278 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_92
+java.home            : C:\Program Files\Java\jre1.8.0_92
+os.name              : Windows 7
+os.arch              : x86
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Wed Aug 02 00:38:25 EDT 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:NewScenario] [TestCase: NewTestCase0] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 37071
+Only local connections are allowed.
+2017-08-02 00:38:32:08S -0400 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @http://tapuat.allmerica.com/personal | Conditon:  | @02-Aug-2017 00:38:32.032
+[DONE]   | Opened Url: http://tapuat.allmerica.com/personal
+
+===================================================================================================
+
+Step:2   | Object: User ID | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:38:34.034
+Using @name [user], Object 'User ID' Found in 50 ms
+[DONE]   | Clicking on User ID
+
+===================================================================================================
+
+Step:3   | Object: User ID | Action: Set | Input: @sha566 | Conditon:  | @02-Aug-2017 00:38:35.035
+Using @name [user], Object 'User ID' Found in 30 ms
+[DONE]   | Entered Text 'sha566' on 'User ID'
+
+===================================================================================================
+
+Step:4   | Object: Password | Action: setEncrypted | Input: @cnNhMTIz Enc | Conditon:  | @02-Aug-2017 00:38:35.035
+Using @name [password], Object 'Password' Found in 68 ms
+[DONE]   | Entered Encrypted Text cnNhMTIz on Password
+
+===================================================================================================
+
+Step:5   | Object: Continue | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:38:35.035
+Using @relative_xpath [//button[@value='Log-in']], Object 'Continue' Found in 40 ms
+[DONE]   | Clicking on Continue
+
+===================================================================================================
+
+Step:6   | Object: hover-color | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:38:45.045
+Using @relative_xpath [//h4[contains(text(),'Automobile')]], Object 'hover-color' Found in 57 ms
+[DONE]   | Clicking on hover-color
+
+===================================================================================================
+
+Step:7   | Object: NewCustomerObject | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:38:48.048
+Using @id [select2-chosen-2], Object 'NewCustomerObject' Found in 81 ms
+[DONE]   | Clicking on NewCustomerObject
+
+===================================================================================================
+
+Step:8   | Object: Customer Search | Action: Set | Input: @create new customer number | Conditon:  | @02-Aug-2017 00:38:48.048
+Using @id [s2id_autogen2_search], Object 'Customer Search' Found in 115 ms
+[DONE]   | Entered Text 'create new customer number' on 'Customer Search'
+
+===================================================================================================
+
+Step:9   | Object: CustomerResults | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:38:49.049
+Using @relative_xpath [//span[contains(text(),'Create New Customer Number')]], Object 'CustomerResults' Found in 561 ms
+[DONE]   | Clicking on CustomerResults
+
+===================================================================================================
+
+Step:10  | Object: AgencyProdCode | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:38:50.050
+Using @name [AgencyProdCode], Object 'AgencyProdCode' Found in 50 ms
+[DONE]   | Clicking on AgencyProdCode
+
+===================================================================================================
+
+Step:11  | Object: AgencyProdCode | Action: Set | Input: @6600000 | Conditon:  | @02-Aug-2017 00:38:51.051
+Using @name [AgencyProdCode], Object 'AgencyProdCode' Found in 36 ms
+[DONE]   | Entered Text '6600000' on 'AgencyProdCode'
+
+===================================================================================================
+
+Step:12  | Object: Toggle Navigation Hanover SYED | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:38:52.052
+Using @relative_xpath [//body], Object 'Toggle Navigation Hanover SYED' Found in 37 ms
+[DONE]   | Clicking on Toggle Navigation Hanover SYED
+
+===================================================================================================
+
+Step:13  | Object: NamedInsuredFirstName | Action: waitForElementToBeClickable | Input:  | Conditon:  | @02-Aug-2017 00:38:52.052
+Using @name [NamedInsuredFirstName], Object 'NamedInsuredFirstName' Found in 50 ms
+[DONE]   | 'NamedInsuredFirstName' Element becomes Clickable in stipulated time
+
+===================================================================================================
+
+Step:14  | Object: NamedInsuredFirstName | Action: Set | Input: @Auto | Conditon:  | @02-Aug-2017 00:38:57.057
+Using @name [NamedInsuredFirstName], Object 'NamedInsuredFirstName' Found in 55 ms
+[DONE]   | Entered Text 'Auto' on 'NamedInsuredFirstName'
+
+===================================================================================================
+
+Step:15  | Object: NamedInsuredLastName | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:38:57.057
+Using @name [NamedInsuredLastName], Object 'NamedInsuredLastName' Found in 51 ms
+[DONE]   | Clicking on NamedInsuredLastName
+
+===================================================================================================
+
+Step:16  | Object: NamedInsuredLastName | Action: Set | Input: @HealthCheck | Conditon:  | @02-Aug-2017 00:38:57.057
+Using @name [NamedInsuredLastName], Object 'NamedInsuredLastName' Found in 32 ms
+[DONE]   | Entered Text 'HealthCheck' on 'NamedInsuredLastName'
+
+===================================================================================================
+
+Step:17  | Object: NamedInsuredGender | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:38:58.058
+Using @name [NamedInsuredGender], Object 'NamedInsuredGender' Found in 34 ms
+[DONE]   | Clicking on NamedInsuredGender
+
+===================================================================================================
+
+Step:18  | Object: NamedInsuredDOB | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:38:58.058
+Using @name [NamedInsuredDOB], Object 'NamedInsuredDOB' Found in 45 ms
+[DONE]   | Clicking on NamedInsuredDOB
+
+===================================================================================================
+
+Step:19  | Object: NamedInsuredDOB | Action: Set | Input: @04-04-1993 | Conditon:  | @02-Aug-2017 00:38:58.058
+Using @name [NamedInsuredDOB], Object 'NamedInsuredDOB' Found in 27 ms
+[DONE]   | Entered Text '04-04-1993' on 'NamedInsuredDOB'
+
+===================================================================================================
+
+Step:20  | Object: Insured Information | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:38:59.059
+Using @relative_xpath [(//*[normalize-space(text())='Insured Information'])[2]], Object 'Insured Information' Found in 36 ms
+[DONE]   | Clicking on Insured Information
+
+===================================================================================================
+
+Step:21  | Object: LocationAddressLine1 | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:38:59.059
+Using @name [LocationAddressLine1], Object 'LocationAddressLine1' Found in 237 ms
+[DONE]   | Clicking on LocationAddressLine1
+
+===================================================================================================
+
+Step:22  | Object: LocationAddressLine1 | Action: Set | Input: @6433 FIR ROAD | Conditon:  | @02-Aug-2017 00:38:59.059
+Using @name [LocationAddressLine1], Object 'LocationAddressLine1' Found in 25 ms
+[DONE]   | Entered Text '6433 FIR ROAD' on 'LocationAddressLine1'
+
+===================================================================================================
+
+Step:23  | Object: Toggle Navigation Hanover SYED | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:39:00.000
+Using @relative_xpath [//body], Object 'Toggle Navigation Hanover SYED' Found in 21 ms
+[DONE]   | Clicking on Toggle Navigation Hanover SYED
+
+===================================================================================================
+
+Step:24  | Object: LocationAddressZip | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:39:00.000
+Using @name [LocationAddressZip], Object 'LocationAddressZip' Found in 48 ms
+[DONE]   | Clicking on LocationAddressZip
+
+===================================================================================================
+
+Step:25  | Object: LocationAddressZip | Action: Set | Input: @18104 | Conditon:  | @02-Aug-2017 00:39:01.001
+Using @name [LocationAddressZip], Object 'LocationAddressZip' Found in 19 ms
+[DONE]   | Entered Text '18104' on 'LocationAddressZip'
+
+===================================================================================================
+
+Step:26  | Object: EffectiveDate | Action: waitForElementToBeClickable | Input:  | Conditon:  | @02-Aug-2017 00:39:01.001
+Using @name [EffectiveDate], Object 'EffectiveDate' Found in 38 ms
+[DONE]   | 'EffectiveDate' Element becomes Clickable in stipulated time
+
+===================================================================================================
+
+Step:27  | Object: EffectiveDate | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:39:01.001
+Using @name [EffectiveDate], Object 'EffectiveDate' Found in 22 ms
+[DONE]   | Clicking on EffectiveDate
+
+===================================================================================================
+
+Step:28  | Object: EffectiveDate | Action: Set | Input: @08-01-2017 | Conditon:  | @02-Aug-2017 00:39:01.001
+Using @name [EffectiveDate], Object 'EffectiveDate' Found in 31 ms
+[DONE]   | Entered Text '08-01-2017' on 'EffectiveDate'
+
+===================================================================================================
+
+Step:29  | Object: LapseInCoverage | Action: waitForElementToContainValue | Input: @No Lapse | Conditon:  | @02-Aug-2017 00:39:02.002
+Using @id [LapseInCoverage], Object 'LapseInCoverage' Found in 134 ms
+2017-08-02 00:39:03:08S -0400 [OFF ] com.cognizant.cognizantits.engine.commands.WaitFor waitFor:null
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Connection to server failed. Status Code: 500, Status Text: 'error'}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8 milliseconds: null
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'A5DAFC-W7A-0011', ip: '10.43.137.79', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\bpstestr\AppData\Local\Temp\scoped_dir7832_8149}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: a1076484d944967582b679ac8645502c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:173)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.ui.ExpectedConditions$14.apply(ExpectedConditions.java:415)
+	at org.openqa.selenium.support.ui.ExpectedConditions$14.apply(ExpectedConditions.java:411)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitFor(WaitFor.java:280)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitFor(WaitFor.java:240)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitFor(WaitFor.java:233)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitForElement(WaitFor.java:226)
+	at com.cognizant.cognizantits.engine.commands.WaitFor.waitForElementToContainValue(WaitFor.java:121)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[DEBUG]   | Couldn't wait for action to complete in given time - 10 seconds
+
+===================================================================================================
+
+Step:30  | Object: LapseInCoverage | Action: selectByVisibleText | Input: @No Lapse | Conditon:  | @02-Aug-2017 00:39:03.003
+2017-08-02 00:39:03:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.core.Task runIteration:Driver Chrome Closed / Could not be reached
+com.cognizant.cognizantits.engine.execution.exception.DriverClosedException: Driver Chrome Closed / Could not be reached
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.isAlive(SeleniumDriver.java:143)
+	at com.cognizant.cognizantits.engine.core.CommandControl.canIFindElement(CommandControl.java:103)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:92)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:170)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:143)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : NewScenario:NewTestCase0
+Executed Steps       : 30
+Passed Steps         : 28
+Failed Steps         : 2
+Time Taken           : 00:00:39
+-----------------------------------------------------
+
+Run Finished on Wed Aug 02 00:39:05 EDT 2017
+-----------------------------------------------------
+ExecutionDate        : 02-Aug-2017 00-38-25
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:39
+ReportPath           : file:///C:\Users\bpstestr\Desktop\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\NewScenario\NewTestCase0\02-Aug-2017 00-38-25\summary.html
+-----------------------------------------------------

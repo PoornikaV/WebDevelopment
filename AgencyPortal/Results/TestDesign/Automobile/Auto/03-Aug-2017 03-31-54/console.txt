@@ -1,0 +1,735 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_131
+java.home            : C:\Program Files\Java\jre1.8.0_131
+os.name              : Windows 7
+os.arch              : x86
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Thu Aug 03 03:31:54 EDT 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:Automobile] [TestCase: Auto] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 15030
+Only local connections are allowed.
+2017-08-03 03:32:11:08S -0400 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:2   | Object: Browser | Action: Open | Input: @http://tapuat.allmerica.com/personal | Conditon:  | @03-Aug-2017 03:32:11.011
+[DONE]   | Opened Url: http://tapuat.allmerica.com/personal
+
+===================================================================================================
+
+Step:1   | Object: User ID | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:32:14.014
+Using @name [user], Object 'User ID' Found in 84 ms
+[DONE]   | Page Element[User ID] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[User ID] is clicked
+
+===================================================================================================
+
+Step:2   | Object: User ID | Action: enterTxtInputByFluentWait | Input: @sha566 | Conditon:  | @03-Aug-2017 03:32:14.014
+Using @name [user], Object 'User ID' Found in 22 ms
+[PASS]   | Entered Text 'sha566' on 'User ID'
+
+===================================================================================================
+
+Step:3   | Object: Password | Action: enterTxtInputByFluentWait | Input: @rsa123 | Conditon:  | @03-Aug-2017 03:32:15.015
+Using @name [password], Object 'Password' Found in 40 ms
+[PASS]   | Entered Text 'rsa123' on 'Password'
+
+===================================================================================================
+
+Step:4   | Object: Continue | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:32:16.016
+Using @relative_xpath [//button[@value='Log-in']], Object 'Continue' Found in 35 ms
+[DONE]   | Page Element[Continue] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Continue] is clicked
+
+===================================================================================================
+
+Step:1   | Object: hover-color | Action: Click | Input:  | Conditon:  | @03-Aug-2017 03:32:26.026
+Using @relative_xpath [//h4[contains(text(),'Automobile')]], Object 'hover-color' Found in 38 ms
+[DONE]   | Clicking on hover-color
+
+===================================================================================================
+
+Step:1   | Object: NewCustomerObject | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:32:28.028
+Using @id [select2-chosen-2], Object 'NewCustomerObject' Found in 59 ms
+[DONE]   | Page Element[NewCustomerObject] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[NewCustomerObject] is clicked
+
+===================================================================================================
+
+Step:2   | Object: Customer Search | Action: enterTxtInputByFluentWait | Input: @create new customer number | Conditon:  | @03-Aug-2017 03:32:29.029
+Using @id [s2id_autogen2_search], Object 'Customer Search' Found in 70 ms
+[PASS]   | Entered Text 'create new customer number' on 'Customer Search'
+
+===================================================================================================
+
+Step:3   | Object: CustomerResults | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:32:30.030
+Using @relative_xpath [//span[contains(text(),'Create New Customer Number')]], Object 'CustomerResults' Found in 38 ms
+[DONE]   | Page Element[CustomerResults] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[CustomerResults] is clicked
+
+===================================================================================================
+
+Step:4   | Object: AgencyProdCode | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:32:30.030
+Using @name [AgencyProdCode], Object 'AgencyProdCode' Found in 42 ms
+[DONE]   | Page Element[AgencyProdCode] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[AgencyProdCode] is clicked
+
+===================================================================================================
+
+Step:5   | Object: AgencyProdCode | Action: enterTxtInputByFluentWait | Input: @6600000 | Conditon:  | @03-Aug-2017 03:32:30.030
+Using @name [AgencyProdCode], Object 'AgencyProdCode' Found in 82 ms
+[PASS]   | Entered Text '6600000' on 'AgencyProdCode'
+
+===================================================================================================
+
+Step:6   | Object: Toggle Navigation Hanover SYED | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:32:31.031
+Using @relative_xpath [//body], Object 'Toggle Navigation Hanover SYED' Found in 38 ms
+[DONE]   | Page Element[Toggle Navigation Hanover SYED] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Toggle Navigation Hanover SYED] is clicked
+
+===================================================================================================
+
+Step:7   | Object: NamedInsuredFirstName | Action: waitForElementToBeClickable | Input:  | Conditon:  | @03-Aug-2017 03:32:32.032
+Using @name [NamedInsuredFirstName], Object 'NamedInsuredFirstName' Found in 89 ms
+[DONE]   | 'NamedInsuredFirstName' Element becomes Clickable in stipulated time
+
+===================================================================================================
+
+Step:8   | Object: NamedInsuredFirstName | Action: enterTxtInputByFluentWait | Input: @Auto | Conditon:  | @03-Aug-2017 03:32:36.036
+Using @name [NamedInsuredFirstName], Object 'NamedInsuredFirstName' Found in 19 ms
+[PASS]   | Entered Text 'Auto' on 'NamedInsuredFirstName'
+
+===================================================================================================
+
+Step:9   | Object: NamedInsuredLastName | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:32:37.037
+Using @name [NamedInsuredLastName], Object 'NamedInsuredLastName' Found in 45 ms
+[DONE]   | Page Element[NamedInsuredLastName] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[NamedInsuredLastName] is clicked
+
+===================================================================================================
+
+Step:10  | Object: NamedInsuredLastName | Action: enterTxtInputByFluentWait | Input: @HealthCheck | Conditon:  | @03-Aug-2017 03:32:37.037
+Using @name [NamedInsuredLastName], Object 'NamedInsuredLastName' Found in 30 ms
+[PASS]   | Entered Text 'HealthCheck' on 'NamedInsuredLastName'
+
+===================================================================================================
+
+Step:11  | Object: NamedInsuredGender | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:32:38.038
+Using @name [NamedInsuredGender], Object 'NamedInsuredGender' Found in 35 ms
+[DONE]   | Page Element[NamedInsuredGender] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[NamedInsuredGender] is clicked
+
+===================================================================================================
+
+Step:12  | Object: NamedInsuredDOB | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:32:38.038
+Using @name [NamedInsuredDOB], Object 'NamedInsuredDOB' Found in 43 ms
+[DONE]   | Page Element[NamedInsuredDOB] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[NamedInsuredDOB] is clicked
+
+===================================================================================================
+
+Step:13  | Object: NamedInsuredDOB | Action: enterTxtInputByFluentWait | Input: @04-04-1993 | Conditon:  | @03-Aug-2017 03:32:38.038
+Using @name [NamedInsuredDOB], Object 'NamedInsuredDOB' Found in 28 ms
+[PASS]   | Entered Text '04-04-1993' on 'NamedInsuredDOB'
+
+===================================================================================================
+
+Step:14  | Object: Insured Information | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:32:39.039
+Using @relative_xpath [(//*[normalize-space(text())='Insured Information'])[2]], Object 'Insured Information' Found in 41 ms
+[DONE]   | Page Element[Insured Information] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Insured Information] is clicked
+
+===================================================================================================
+
+Step:15  | Object: LocationAddressLine1 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:32:39.039
+Using @name [LocationAddressLine1], Object 'LocationAddressLine1' Found in 31 ms
+[DONE]   | Page Element[LocationAddressLine1] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[LocationAddressLine1] is clicked
+
+===================================================================================================
+
+Step:16  | Object: LocationAddressLine1 | Action: enterTxtInputByFluentWait | Input: @6433 FIR ROAD | Conditon:  | @03-Aug-2017 03:32:39.039
+Using @name [LocationAddressLine1], Object 'LocationAddressLine1' Found in 21 ms
+[PASS]   | Entered Text '6433 FIR ROAD' on 'LocationAddressLine1'
+
+===================================================================================================
+
+Step:17  | Object: Toggle Navigation Hanover SYED | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:32:40.040
+Using @relative_xpath [//body], Object 'Toggle Navigation Hanover SYED' Found in 20 ms
+[DONE]   | Page Element[Toggle Navigation Hanover SYED] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Toggle Navigation Hanover SYED] is clicked
+
+===================================================================================================
+
+Step:18  | Object: LocationAddressZip | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:32:40.040
+Using @name [LocationAddressZip], Object 'LocationAddressZip' Found in 47 ms
+[DONE]   | Page Element[LocationAddressZip] is enabled
+
+===================================================================================================
+
+[PASS]   | Page Element[LocationAddressZip] is not in sync- Trying again
+
+===================================================================================================
+
+[DONE]   | Page Element[LocationAddressZip] is clicked
+
+===================================================================================================
+
+Step:19  | Object: LocationAddressZip | Action: enterTxtInputByFluentWait | Input: @18104 | Conditon:  | @03-Aug-2017 03:32:42.042
+Using @name [LocationAddressZip], Object 'LocationAddressZip' Found in 21 ms
+[PASS]   | Entered Text '18104' on 'LocationAddressZip'
+
+===================================================================================================
+
+Step:20  | Object: LocationAddressLine1 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:32:43.043
+Using @name [LocationAddressLine1], Object 'LocationAddressLine1' Found in 15 ms
+[DONE]   | Page Element[LocationAddressLine1] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[LocationAddressLine1] is clicked
+
+===================================================================================================
+
+Step:21  | Object: EffectiveDate | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:32:43.043
+Using @name [EffectiveDate], Object 'EffectiveDate' Found in 34 ms
+[DONE]   | Page Element[EffectiveDate] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[EffectiveDate] is clicked
+
+===================================================================================================
+
+Step:22  | Object: EffectiveDate | Action: enterTxtInputByFluentWait | Input: @08-01-2017 | Conditon:  | @03-Aug-2017 03:32:43.043
+Using @name [EffectiveDate], Object 'EffectiveDate' Found in 18 ms
+[PASS]   | Entered Text '08-01-2017' on 'EffectiveDate'
+
+===================================================================================================
+
+Step:23  | Object: LapseInCoverage | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @No Lapse | Conditon:  | @03-Aug-2017 03:32:44.044
+Using @id [LapseInCoverage], Object 'LapseInCoverage' Found in 79 ms
+[DONE]   | Page Element[LapseInCoverage] is enabled
+
+===================================================================================================
+
+[PASS]   | Page Element[LapseInCoverage] is not in sync- Trying again
+
+===================================================================================================
+
+[PASS]   | Page Element[LapseInCoverage] is not in sync- Trying again
+
+===================================================================================================
+
+[DONE]   | Page Element[LapseInCoverage] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: No Lapse in the Dropdown: 
+
+===================================================================================================
+
+Step:24  | Object: PriorBILimit | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @Less Than Or Equal To State Minimum | Conditon:  | @03-Aug-2017 03:32:48.048
+Using @name [PriorBILimit], Object 'PriorBILimit' Found in 46 ms
+[DONE]   | Page Element[PriorBILimit] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[PriorBILimit] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: Less Than Or Equal To State Minimum in the Dropdown: 
+
+===================================================================================================
+
+Step:25  | Object: Continue | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:32:49.049
+Using @name [continueButton], Object 'Continue' Found in 47 ms
+[DONE]   | Page Element[Continue] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Continue] is clicked
+
+===================================================================================================
+
+Step:1   | Object: Edit | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:32:55.055
+Using @link_text [Edit], Object 'Edit' Found in 315 ms
+[DONE]   | Page Element[Edit] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Edit] is clicked
+
+===================================================================================================
+
+Step:2   | Object: DriverMaritalStatus | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @Single | Conditon:  | @03-Aug-2017 03:32:57.057
+Using @name [DriverMaritalStatus], Object 'DriverMaritalStatus' Found in 51 ms
+[DONE]   | Page Element[DriverMaritalStatus] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[DriverMaritalStatus] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: Single in the Dropdown: 
+
+===================================================================================================
+
+Step:3   | Object: DriverStatus | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @Principal | Conditon:  | @03-Aug-2017 03:32:58.058
+Using @name [DriverStatus], Object 'DriverStatus' Found in 37 ms
+[DONE]   | Page Element[DriverStatus] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[DriverStatus] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: Principal in the Dropdown: 
+
+===================================================================================================
+
+Step:4   | Object: DriverLicenseNumber | Action: enterTxtInputByFluentWait | Input: @W20007259333 | Conditon:  | @03-Aug-2017 03:32:59.059
+Using @name [DriverLicenseNumber], Object 'DriverLicenseNumber' Found in 34 ms
+[PASS]   | Entered Text 'W20007259333' on 'DriverLicenseNumber'
+
+===================================================================================================
+
+Step:5   | Object: DriverLicenseState | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @Illinois | Conditon:  | @03-Aug-2017 03:33:00.000
+Using @name [DriverLicenseState], Object 'DriverLicenseState' Found in 39 ms
+[DONE]   | Page Element[DriverLicenseState] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[DriverLicenseState] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: Illinois in the Dropdown: 
+
+===================================================================================================
+
+Step:6   | Object: Save1 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:01.001
+Using @name [saveButton], Object 'Save1' Found in 34 ms
+[DONE]   | Page Element[Save1] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Save1] is clicked
+
+===================================================================================================
+
+Step:7   | Object: Continue1 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:03.003
+Using @name [continueButton], Object 'Continue1' Found in 119 ms
+[DONE]   | Page Element[Continue1] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Continue1] is clicked
+
+===================================================================================================
+
+Step:8   | Object: Add New | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:04.004
+Using @id [rosterAddNewBtn], Object 'Add New' Found in 54 ms
+[DONE]   | Page Element[Add New] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Add New] is clicked
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @03-Aug-2017 03:33:05.005
+[DONE]   | Page load completed in stipulated time
+
+===================================================================================================
+
+Step:2   | Object: IncidentDriver | Action: selectDropDown_UsingIndexByFluentWait | Input: @01 | Conditon:  | @03-Aug-2017 03:33:05.005
+Using @name [IncidentDriver], Object 'IncidentDriver' Found in 73 ms
+[PASS]   | Selected value with index : 01 in the Dropdown: 
+
+===================================================================================================
+
+Step:3   | Object: IncidentDate | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:06.006
+Using @name [IncidentDate], Object 'IncidentDate' Found in 38 ms
+[DONE]   | Page Element[IncidentDate] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[IncidentDate] is clicked
+
+===================================================================================================
+
+Step:4   | Object: IncidentDate | Action: enterTxtInputByFluentWait | Input: @06-07-2016 | Conditon:  | @03-Aug-2017 03:33:06.006
+Using @name [IncidentDate], Object 'IncidentDate' Found in 17 ms
+[PASS]   | Entered Text '06-07-2016' on 'IncidentDate'
+
+===================================================================================================
+
+Step:5   | Object: IncidentType | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @Violation - Speeding | Conditon:  | @03-Aug-2017 03:33:06.006
+Using @name [IncidentType], Object 'IncidentType' Found in 37 ms
+[DONE]   | Page Element[IncidentType] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[IncidentType] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: Violation - Speeding in the Dropdown: 
+
+===================================================================================================
+
+Step:6   | Object: Save2 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:07.007
+Using @name [addButton], Object 'Save2' Found in 40 ms
+[DONE]   | Page Element[Save2] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Save2] is clicked
+
+===================================================================================================
+
+Step:7   | Object: Continue1 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:08.008
+Using @name [continueButton], Object 'Continue1' Found in 31 ms
+[DONE]   | Page Element[Continue1] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Continue1] is clicked
+
+===================================================================================================
+
+Step:1   | Object: VehicleVIN | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:09.009
+Using @name [VehicleVIN], Object 'VehicleVIN' Found in 65 ms
+[DONE]   | Page Element[VehicleVIN] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[VehicleVIN] is clicked
+
+===================================================================================================
+
+Step:2   | Object: VehicleVIN | Action: enterTxtInputByFluentWait | Input: @JTDZN3EU9C3085073 | Conditon:  | @03-Aug-2017 03:33:09.009
+Using @name [VehicleVIN], Object 'VehicleVIN' Found in 49 ms
+[PASS]   | Entered Text 'JTDZN3EU9C3085073' on 'VehicleVIN'
+
+===================================================================================================
+
+Step:3   | Object: 2012 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:10.010
+Using @xpath [(/html/body/div/div[15]/div/div[2]/div/div[3]/span/form/div[3]/fieldset/div[3]/div)[1]], Object '2012' Found in 74 ms
+[DONE]   | Page Element[2012] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[2012] is clicked
+
+===================================================================================================
+
+Step:4   | Object: VehicleUsage | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @Pleasure | Conditon:  | @03-Aug-2017 03:33:11.011
+Using @name [VehicleUsage], Object 'VehicleUsage' Found in 41 ms
+[DONE]   | Page Element[VehicleUsage] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[VehicleUsage] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: Pleasure in the Dropdown: 
+
+===================================================================================================
+
+Step:5   | Object: Save3 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:12.012
+Using @name [addButton], Object 'Save3' Found in 73 ms
+[DONE]   | Page Element[Save3] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Save3] is clicked
+
+===================================================================================================
+
+Step:6   | Object: Continue2 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:14.014
+Using @name [continueButton], Object 'Continue2' Found in 47 ms
+[DONE]   | Page Element[Continue2] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Continue2] is clicked
+
+===================================================================================================
+
+Step:9   | Object: VehicleLiabilityLimit | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @100/300/50 | Conditon:  | @03-Aug-2017 03:33:18.018
+Using @name [VehicleLiabilityLimit], Object 'VehicleLiabilityLimit' Found in 51 ms
+[DONE]   | Page Element[VehicleLiabilityLimit] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[VehicleLiabilityLimit] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: 100/300/50 in the Dropdown: 
+
+===================================================================================================
+
+Step:10  | Object: PolicyCovMedicalExpBen | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @5,000 | Conditon:  | @03-Aug-2017 03:33:19.019
+Using @name [PolicyCovMedicalExpBen], Object 'PolicyCovMedicalExpBen' Found in 32 ms
+[DONE]   | Page Element[PolicyCovMedicalExpBen] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[PolicyCovMedicalExpBen] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: 5,000 in the Dropdown: 
+
+===================================================================================================
+
+Step:11  | Object: VehicleUninsuredUnderinsuredSplitLimits | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @15/30 | Conditon:  | @03-Aug-2017 03:33:21.021
+Using @name [VehicleUninsuredUnderinsuredSplitLimits], Object 'VehicleUninsuredUnderinsuredSplitLimits' Found in 36 ms
+[DONE]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[VehicleUninsuredUnderinsuredSplitLimits] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: 15/30 in the Dropdown: 
+
+===================================================================================================
+
+Step:12  | Object: PolicyCovTypeResOwned | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @1-4 Family Dwelling | Conditon:  | @03-Aug-2017 03:33:22.022
+Using @name [PolicyCovTypeResOwned], Object 'PolicyCovTypeResOwned' Found in 35 ms
+[DONE]   | Page Element[PolicyCovTypeResOwned] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[PolicyCovTypeResOwned] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: 1-4 Family Dwelling in the Dropdown: 
+
+===================================================================================================
+
+Step:13  | Object: PolicyCovResOwned | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:23.023
+Using @name [PolicyCovResOwned], Object 'PolicyCovResOwned' Found in 80 ms
+[DONE]   | Page Element[PolicyCovResOwned] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[PolicyCovResOwned] is clicked
+
+===================================================================================================
+
+Step:14  | Object: Continue to Summary | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:24.024
+Using @name [continueButton], Object 'Continue to Summary' Found in 47 ms
+[DONE]   | Page Element[Continue to Summary] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Continue to Summary] is clicked
+
+===================================================================================================
+
+Step:15  | Object: Continue3 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:28.028
+Using @name [continue], Object 'Continue3' Found in 51 ms
+[DONE]   | Page Element[Continue3] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Continue3] is clicked
+
+===================================================================================================
+
+Step:16  | Object: Order All Reports | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:29.029
+Using @name [orderAll], Object 'Order All Reports' Found in 107 ms
+[DONE]   | Page Element[Order All Reports] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Order All Reports] is clicked
+
+===================================================================================================
+
+Step:17  | Object: Continue4 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:31.031
+Using @name [continueButton], Object 'Continue4' Found in 34 ms
+[DONE]   | Page Element[Continue4] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Continue4] is clicked
+
+===================================================================================================
+
+Step:18  | Object: AllAutoUnderwritingNo | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:33.033
+Using @name [AllAutoUnderwritingNo], Object 'AllAutoUnderwritingNo' Found in 104 ms
+[DONE]   | Page Element[AllAutoUnderwritingNo] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[AllAutoUnderwritingNo] is clicked
+
+===================================================================================================
+
+Step:19  | Object: Continue5 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:34.034
+Using @name [continueButton], Object 'Continue5' Found in 125 ms
+[DONE]   | Page Element[Continue5] is enabled
+
+===================================================================================================
+
+[PASS]   | Page Element[Continue5] is not in sync- Trying again
+
+===================================================================================================
+
+[DONE]   | Page Element[Continue5] is clicked
+
+===================================================================================================
+
+Step:20  | Object: AgentEMailAddress | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:36.036
+Using @name [AgentEMailAddress], Object 'AgentEMailAddress' Found in 57 ms
+[DONE]   | Page Element[AgentEMailAddress] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[AgentEMailAddress] is clicked
+
+===================================================================================================
+
+Step:21  | Object: AgentEMailAddress | Action: enterTxtInputByFluentWait | Input: @test@gmail.com | Conditon:  | @03-Aug-2017 03:33:37.037
+Using @name [AgentEMailAddress], Object 'AgentEMailAddress' Found in 35 ms
+[PASS]   | Entered Text 'test@gmail.com' on 'AgentEMailAddress'
+
+===================================================================================================
+
+Step:22  | Object: Continue5 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:38.038
+Using @name [continueButton], Object 'Continue5' Found in 23 ms
+[DONE]   | Page Element[Continue5] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Continue5] is clicked
+
+===================================================================================================
+
+Step:23  | Object: Enter Billing Information | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:41.041
+Using @name [billingButton], Object 'Enter Billing Information' Found in 50 ms
+[DONE]   | Page Element[Enter Billing Information] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Enter Billing Information] is clicked
+
+===================================================================================================
+
+Step:24  | Object: BillingPayPlan | Action: selectByVisibleText | Input: @Full Pay | Conditon:  | @03-Aug-2017 03:33:43.043
+Using @name [BillingPayPlan], Object 'BillingPayPlan' Found in 193 ms
+[DONE]   | Item/s 'Full Pay' is/are selected from list BillingPayPlan
+
+===================================================================================================
+
+Step:25  | Object: BillingDownPayMthd | Action: selectDropDown_UsingVisibleTextByFluentWait | Input: @Paper Check | Conditon:  | @03-Aug-2017 03:33:44.044
+Using @name [BillingDownPayMthd], Object 'BillingDownPayMthd' Found in 56 ms
+[DONE]   | Page Element[BillingDownPayMthd] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[BillingDownPayMthd] is clicked
+
+===================================================================================================
+
+[PASS]   | Selected value: Paper Check in the Dropdown: 
+
+===================================================================================================
+
+Step:26  | Object: Continue | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:44.044
+Using @name [continueButton], Object 'Continue' Found in 16 ms
+[DONE]   | Page Element[Continue] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Continue] is clicked
+
+===================================================================================================
+
+Step:27  | Object: Save and Exit | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @03-Aug-2017 03:33:48.048
+Using @name [saveAndExitButton], Object 'Save and Exit' Found in 53 ms
+[DONE]   | Page Element[Save and Exit] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Save and Exit] is clicked
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Automobile:Auto
+Executed Steps       : 138
+Passed Steps         : 138
+Failed Steps         : 0
+Time Taken           : 00:01:58
+-----------------------------------------------------
+
+Run Finished on Thu Aug 03 03:33:52 EDT 2017
+-----------------------------------------------------
+ExecutionDate        : 03-Aug-2017 03-31-54
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:01:58
+ReportPath           : file:///C:\Poorni\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\Automobile\Auto\03-Aug-2017 03-31-54\summary.html
+-----------------------------------------------------

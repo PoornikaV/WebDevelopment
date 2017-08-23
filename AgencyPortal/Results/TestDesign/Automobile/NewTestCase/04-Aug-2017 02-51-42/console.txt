@@ -1,0 +1,99 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_131
+java.home            : C:\Program Files\Java\jre1.8.0_131
+os.name              : Windows 7
+os.arch              : x86
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Fri Aug 04 02:51:42 EDT 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:Automobile] [TestCase: NewTestCase] [Description: Test Run] [Browser: IE] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching IE
+Launching Local Driver
+Started InternetExplorerDriver server (32-bit)
+3.4.0.0
+Listening on port 29711
+Only local connections are allowed
+2017-08-04 02:51:56:08S -0400 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+IE Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://plworkstationin5.allmerica.com | Conditon:  | @04-Aug-2017 02:51:56.056
+[DONE]   | Opened Url: https://plworkstationin5.allmerica.com
+
+===================================================================================================
+
+Step:2   | Object: User ID | Action: Set | Input: TestData1:UserN | Conditon: Start Param | @04-Aug-2017 02:51:57.057
+Test Data Not Found, SubIteration - 1:1 is missing. 
+[Env : Default | Sheet : TestData1 | Field : UserN | TestCase : Automobile/NewTestCase ], Breaking subIteration!!
+[DEBUG]   | Test Data Not Found, SubIteration - 1:1 is missing.
+
+===================================================================================================
+
+2017-08-04 02:51:57:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onDataNotFoundException:Test Data Not Found, SubIteration - 1:1 is missing.
+Test Data Not Found, SubIteration - 1:1 is missing. 
+[Env : Default | Sheet : TestData1 | Field : UserN | TestCase : Automobile/NewTestCase ]
+	at com.cognizant.cognizantits.engine.execution.data.DataAccessInternal.throwErrorWithCause(DataAccessInternal.java:291)
+	at com.cognizant.cognizantits.engine.execution.data.DataAccess.getData(DataAccess.java:71)
+	at com.cognizant.cognizantits.engine.execution.data.DataProcessor.resolve(DataProcessor.java:64)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:169)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:143)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2017-08-04 02:51:57:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:Test Data Not Found, SubIteration - 1:1 is missing.
+Test Data Not Found, SubIteration - 1:1 is missing. 
+[Env : Default | Sheet : TestData1 | Field : UserN | TestCase : Automobile/NewTestCase ]
+	at com.cognizant.cognizantits.engine.execution.data.DataAccessInternal.throwErrorWithCause(DataAccessInternal.java:291)
+	at com.cognizant.cognizantits.engine.execution.data.DataAccess.getData(DataAccess.java:71)
+	at com.cognizant.cognizantits.engine.execution.data.DataProcessor.resolve(DataProcessor.java:64)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:169)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:143)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[DEBUG]   | Test Data Not Found, SubIteration - 1:1 is missing. 
+[Env : Default | Sheet : TestData1 | Field : UserN | TestCase : Automobile/NewTestCase ]
+[Breaking execution!]
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Automobile:NewTestCase
+Executed Steps       : 3
+Passed Steps         : 1
+Failed Steps         : 2
+Time Taken           : 00:00:16
+-----------------------------------------------------
+
+Run Finished on Fri Aug 04 02:51:59 EDT 2017
+-----------------------------------------------------
+ExecutionDate        : 04-Aug-2017 02-51-42
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:16
+ReportPath           : file:///C:\Poorni\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\Automobile\NewTestCase\04-Aug-2017 02-51-42\summary.html
+-----------------------------------------------------

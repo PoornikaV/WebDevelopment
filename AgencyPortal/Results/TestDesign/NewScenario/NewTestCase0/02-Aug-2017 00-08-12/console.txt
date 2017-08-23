@@ -1,0 +1,310 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_92
+java.home            : C:\Program Files\Java\jre1.8.0_92
+os.name              : Windows 7
+os.arch              : x86
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Wed Aug 02 00:08:12 EDT 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:NewScenario] [TestCase: NewTestCase0] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[main] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 23035
+Only local connections are allowed.
+2017-08-02 00:08:28:08S -0400 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @http://tapuat.allmerica.com/personal | Conditon:  | @02-Aug-2017 00:08:29.029
+[DONE]   | Opened Url: http://tapuat.allmerica.com/personal
+
+===================================================================================================
+
+Step:2   | Object: User ID | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:08:34.034
+Using @name [user], Object 'User ID' Found in 111 ms
+[DONE]   | Clicking on User ID
+
+===================================================================================================
+
+Step:3   | Object: User ID | Action: Set | Input: @sha566 | Conditon:  | @02-Aug-2017 00:08:34.034
+Using @name [user], Object 'User ID' Found in 68 ms
+[DONE]   | Entered Text 'sha566' on 'User ID'
+
+===================================================================================================
+
+Step:4   | Object: Password | Action: setEncrypted | Input: @cnNhMTIz Enc | Conditon:  | @02-Aug-2017 00:08:35.035
+Using @name [password], Object 'Password' Found in 42 ms
+[DONE]   | Entered Encrypted Text cnNhMTIz on Password
+
+===================================================================================================
+
+Step:5   | Object: Continue | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:08:35.035
+Using @relative_xpath [//button[@value='Log-in']], Object 'Continue' Found in 51 ms
+[DONE]   | Clicking on Continue
+
+===================================================================================================
+
+Step:6   | Object: hover-color | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:08:49.049
+Using @relative_xpath [//h4[contains(text(),'Automobile')]], Object 'hover-color' Found in 59 ms
+[DONE]   | Clicking on hover-color
+
+===================================================================================================
+
+Step:7   | Object: NewCustomerObject | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:08:52.052
+Using @id [select2-chosen-2], Object 'NewCustomerObject' Found in 136 ms
+[DONE]   | Clicking on NewCustomerObject
+
+===================================================================================================
+
+Step:8   | Object: Customer Search | Action: Set | Input: @create new customer number | Conditon:  | @02-Aug-2017 00:08:53.053
+Using @id [s2id_autogen2_search], Object 'Customer Search' Found in 100 ms
+[DONE]   | Entered Text 'create new customer number' on 'Customer Search'
+
+===================================================================================================
+
+Step:9   | Object: CustomerResults | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:08:54.054
+Using @relative_xpath [//span[contains(text(),'Create New Customer Number')]], Object 'CustomerResults' Found in 562 ms
+[DONE]   | Clicking on CustomerResults
+
+===================================================================================================
+
+Step:10  | Object: AgencyProdCode | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:08:55.055
+Using @name [AgencyProdCode], Object 'AgencyProdCode' Found in 56 ms
+[DONE]   | Clicking on AgencyProdCode
+
+===================================================================================================
+
+Step:11  | Object: AgencyProdCode | Action: Set | Input: @6600000 | Conditon:  | @02-Aug-2017 00:08:56.056
+Using @name [AgencyProdCode], Object 'AgencyProdCode' Found in 41 ms
+[DONE]   | Entered Text '6600000' on 'AgencyProdCode'
+
+===================================================================================================
+
+Step:12  | Object: Toggle Navigation Hanover SYED | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:08:57.057
+Using @relative_xpath [//body], Object 'Toggle Navigation Hanover SYED' Found in 36 ms
+[DONE]   | Clicking on Toggle Navigation Hanover SYED
+
+===================================================================================================
+
+Step:13  | Object: NamedInsuredFirstName | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:08:57.057
+Using @name [NamedInsuredFirstName], Object 'NamedInsuredFirstName' Found in 57 ms
+2017-08-02 00:08:57:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [NamedInsuredFirstName] is Not Visible or hidden at the moment
+com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [NamedInsuredFirstName] is Not Visible or hidden at the moment
+	at com.cognizant.cognizantits.engine.commands.General.elementEnabled(General.java:64)
+	at com.cognizant.cognizantits.engine.commands.Basic.Click(Basic.java:45)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [NamedInsuredFirstName] is Not Visible or hidden at the moment
+
+===================================================================================================
+
+Step:14  | Object: NamedInsuredFirstName | Action: Set | Input: @Auto | Conditon:  | @02-Aug-2017 00:09:03.003
+Using @name [NamedInsuredFirstName], Object 'NamedInsuredFirstName' Found in 50 ms
+[DONE]   | Entered Text 'Auto' on 'NamedInsuredFirstName'
+
+===================================================================================================
+
+Step:15  | Object: NamedInsuredLastName | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:09:04.004
+Using @name [NamedInsuredLastName], Object 'NamedInsuredLastName' Found in 44 ms
+[DONE]   | Clicking on NamedInsuredLastName
+
+===================================================================================================
+
+Step:16  | Object: NamedInsuredLastName | Action: Set | Input: @HealthCheck | Conditon:  | @02-Aug-2017 00:09:04.004
+Using @name [NamedInsuredLastName], Object 'NamedInsuredLastName' Found in 36 ms
+[DONE]   | Entered Text 'HealthCheck' on 'NamedInsuredLastName'
+
+===================================================================================================
+
+Step:17  | Object: NamedInsuredGender | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:09:04.004
+Using @name [NamedInsuredGender], Object 'NamedInsuredGender' Found in 38 ms
+[DONE]   | Clicking on NamedInsuredGender
+
+===================================================================================================
+
+Step:18  | Object: NamedInsuredDOB | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:09:05.005
+Using @name [NamedInsuredDOB], Object 'NamedInsuredDOB' Found in 63 ms
+[DONE]   | Clicking on NamedInsuredDOB
+
+===================================================================================================
+
+Step:19  | Object: NamedInsuredDOB | Action: Set | Input: @04-04-1993 | Conditon:  | @02-Aug-2017 00:09:05.005
+Using @name [NamedInsuredDOB], Object 'NamedInsuredDOB' Found in 48 ms
+[DONE]   | Entered Text '04-04-1993' on 'NamedInsuredDOB'
+
+===================================================================================================
+
+Step:20  | Object: Insured Information | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:09:06.006
+Using @relative_xpath [(//*[normalize-space(text())='Insured Information'])[2]], Object 'Insured Information' Found in 132 ms
+[DONE]   | Clicking on Insured Information
+
+===================================================================================================
+
+Step:21  | Object: LocationAddressLine1 | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:09:06.006
+Using @name [LocationAddressLine1], Object 'LocationAddressLine1' Found in 166 ms
+[DONE]   | Clicking on LocationAddressLine1
+
+===================================================================================================
+
+Step:22  | Object: LocationAddressLine1 | Action: Set | Input: @6433 FIR ROAD | Conditon:  | @02-Aug-2017 00:09:06.006
+Using @name [LocationAddressLine1], Object 'LocationAddressLine1' Found in 33 ms
+[DONE]   | Entered Text '6433 FIR ROAD' on 'LocationAddressLine1'
+
+===================================================================================================
+
+Step:23  | Object: Toggle Navigation Hanover SYED | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:09:07.007
+Using @relative_xpath [//body], Object 'Toggle Navigation Hanover SYED' Found in 24 ms
+[DONE]   | Clicking on Toggle Navigation Hanover SYED
+
+===================================================================================================
+
+Step:24  | Object: LocationAddressZip | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:09:07.007
+Using @name [LocationAddressZip], Object 'LocationAddressZip' Found in 63 ms
+[DONE]   | Clicking on LocationAddressZip
+
+===================================================================================================
+
+Step:25  | Object: LocationAddressZip | Action: Set | Input: @18104 | Conditon:  | @02-Aug-2017 00:09:08.008
+Using @name [LocationAddressZip], Object 'LocationAddressZip' Found in 22 ms
+[DONE]   | Entered Text '18104' on 'LocationAddressZip'
+
+===================================================================================================
+
+Step:26  | Object: EffectiveDate | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:09:08.008
+Using @name [EffectiveDate], Object 'EffectiveDate' Found in 40 ms
+[DONE]   | Clicking on EffectiveDate
+
+===================================================================================================
+
+Step:27  | Object: EffectiveDate | Action: Set | Input: @08-01-2017 | Conditon:  | @02-Aug-2017 00:09:09.009
+Using @name [EffectiveDate], Object 'EffectiveDate' Found in 48 ms
+[DONE]   | Entered Text '08-01-2017' on 'EffectiveDate'
+
+===================================================================================================
+
+Step:28  | Object: LapseInCoverage | Action: selectByVisibleText | Input: @No Lapse | Conditon:  | @02-Aug-2017 00:09:09.009
+Using @id [LapseInCoverage], Object 'LapseInCoverage' Found in 226 ms
+2017-08-02 00:09:10:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:org.openqa.selenium.NoSuchElementException: Cannot locate element with text: No Lapse
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'A5DAFC-W7A-0011', ip: '10.43.137.79', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: driver.version: unknown
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: No Lapse
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'A5DAFC-W7A-0011', ip: '10.43.137.79', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at com.cognizant.cognizantits.engine.commands.Dropdown.select(Dropdown.java:273)
+	at com.cognizant.cognizantits.engine.commands.Dropdown.select(Dropdown.java:264)
+	at com.cognizant.cognizantits.engine.commands.Dropdown.selectSingle(Dropdown.java:238)
+	at com.cognizant.cognizantits.engine.commands.Dropdown.select(Dropdown.java:216)
+	at com.cognizant.cognizantits.engine.commands.Dropdown.selectByVisibleText(Dropdown.java:112)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | org.openqa.selenium.NoSuchElementException: Cannot locate element with text: No Lapse
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'A5DAFC-W7A-0011', ip: '10.43.137.79', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: driver.version: unknown
+
+===================================================================================================
+
+Step:29  | Object: PriorBILimit | Action: selectByVisibleText | Input: @Less Than Or Equal To State Minimum | Conditon:  | @02-Aug-2017 00:09:18.018
+Using @class [form-control], Object 'PriorBILimit' Found in 202 ms
+2017-08-02 00:09:18:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "input"
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'A5DAFC-W7A-0011', ip: '10.43.137.79', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: driver.version: unknown
+org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "input"
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'A5DAFC-W7A-0011', ip: '10.43.137.79', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:47)
+	at com.cognizant.cognizantits.engine.commands.Dropdown.select(Dropdown.java:264)
+	at com.cognizant.cognizantits.engine.commands.Dropdown.selectSingle(Dropdown.java:238)
+	at com.cognizant.cognizantits.engine.commands.Dropdown.select(Dropdown.java:216)
+	at com.cognizant.cognizantits.engine.commands.Dropdown.selectByVisibleText(Dropdown.java:112)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "input"
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'A5DAFC-W7A-0011', ip: '10.43.137.79', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: driver.version: unknown
+
+===================================================================================================
+
+Step:30  | Object: NamedInsuredEmailOptOut | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:09:23.023
+Using @name [NamedInsuredEmailOptOut], Object 'NamedInsuredEmailOptOut' Found in 39 ms
+[DONE]   | Clicking on NamedInsuredEmailOptOut
+
+===================================================================================================
+
+Step:31  | Object: Continue | Action: Click | Input:  | Conditon:  | @02-Aug-2017 00:09:24.024
+Using @name [continueButton], Object 'Continue' Found in 51 ms
+[DONE]   | Clicking on Continue
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : NewScenario:NewTestCase0
+Executed Steps       : 31
+Passed Steps         : 28
+Failed Steps         : 3
+Time Taken           : 00:01:13
+-----------------------------------------------------
+
+Run Finished on Wed Aug 02 00:09:26 EDT 2017
+-----------------------------------------------------
+ExecutionDate        : 02-Aug-2017 00-08-12
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:01:13
+ReportPath           : file:///C:\Users\bpstestr\Desktop\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\NewScenario\NewTestCase0\02-Aug-2017 00-08-12\summary.html
+-----------------------------------------------------
+[main] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Users\bpstestr\Desktop\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\NewScenario\NewTestCase0\02-Aug-2017 00-08-12\summary.html
+[main] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\bpstestr\Desktop\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\NewScenario\NewTestCase0\02-Aug-2017 00-08-12\summary.html]

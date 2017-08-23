@@ -1,0 +1,13 @@
+<Root ref="AgencyPortal" type="RC">
+<Folder ref="New Group">
+<Scenario ref="Automobile">
+<TestCase exeType="Executable" ref="AccidentInformation"/>
+<TestCase exeType="Executable" ref="AppLogin"/>
+<TestCase exeType="Executable" ref="Automobile"/>
+<TestCase exeType="Executable" ref="DriverInformation"/>
+<TestCase exeType="Executable" ref="InsuredInformation"/>
+<TestCase exeType="Executable" ref="InvokeApplication"/>
+<TestCase exeType="Executable" ref="VehicleDetails"/>
+</Scenario>
+</Folder>
+</Root>

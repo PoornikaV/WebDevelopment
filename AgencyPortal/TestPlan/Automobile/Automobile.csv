@@ -1,0 +1,2 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,hover-color,"Click the [<Object>] ",Click,,,Agencyportal

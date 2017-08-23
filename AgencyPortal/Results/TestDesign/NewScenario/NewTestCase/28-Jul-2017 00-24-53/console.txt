@@ -1,0 +1,137 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_92
+java.home            : C:\Program Files\Java\jre1.8.0_92
+os.name              : Windows 7
+os.arch              : x86
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Fri Jul 28 00:24:53 EDT 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:NewScenario] [TestCase: NewTestCase] [Description: Test Run] [Browser: IE] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching IE
+Launching Local Driver
+Started InternetExplorerDriver server (32-bit)
+3.4.0.0
+Listening on port 13641
+Only local connections are allowed
+2017-07-28 00:25:02:07S -0400 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+IE Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://plworkstationin5.allmerica.com | Conditon:  | @28-Jul-2017 00:25:02.002
+[DONE]   | Opened Url: https://plworkstationin5.allmerica.com
+
+===================================================================================================
+
+Step:2   | Object: User ID | Action: Click | Input:  | Conditon:  | @28-Jul-2017 00:25:07.007
+Using @name [user], Object 'User ID' Found in 82 ms
+[DONE]   | Clicking on User ID
+
+===================================================================================================
+
+Step:3   | Object: User ID | Action: Set | Input: @dxk886 | Conditon:  | @28-Jul-2017 00:25:08.008
+Using @name [user], Object 'User ID' Found in 54 ms
+[DONE]   | Entered Text 'dxk886' on 'User ID'
+
+===================================================================================================
+
+Step:4   | Object: Password | Action: setEncrypted | Input: @cnNhMTIz Enc | Conditon:  | @28-Jul-2017 00:25:09.009
+Using @name [password], Object 'Password' Found in 67 ms
+[DONE]   | Entered Encrypted Text cnNhMTIz on Password
+
+===================================================================================================
+
+Step:5   | Object: Continue | Action: Click | Input:  | Conditon:  | @28-Jul-2017 00:25:10.010
+Using @relative_xpath [//button[@value='Log-in']], Object 'Continue' Found in 76 ms
+[DONE]   | Clicking on Continue
+
+===================================================================================================
+
+Step:6   | Object: hover-color | Action: Click | Input:  | Conditon:  | @28-Jul-2017 00:25:25.025
+Using @relative_xpath [//h4[contains(text(),'Automobile')]], Object 'hover-color' Found in 175 ms
+[DONE]   | Clicking on hover-color
+
+===================================================================================================
+
+Step:7   | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @28-Jul-2017 00:25:42.042
+[DONE]   | Page load completed in stipulated time
+
+===================================================================================================
+
+Step:8   | Object: Customer Search | Action: Click | Input:  | Conditon:  | @28-Jul-2017 00:25:42.042
+Using @id [s2id_autogen2_search], Object 'Customer Search' Found in 114 ms
+2017-07-28 00:25:42:07S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [Customer Search] is Not Visible or hidden at the moment
+com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [Customer Search] is Not Visible or hidden at the moment
+	at com.cognizant.cognizantits.engine.commands.General.elementEnabled(General.java:64)
+	at com.cognizant.cognizantits.engine.commands.Basic.Click(Basic.java:45)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [Customer Search] is Not Visible or hidden at the moment
+
+===================================================================================================
+
+Step:9   | Object: Customer Search | Action: Set | Input: @create | Conditon:  | @28-Jul-2017 00:25:46.046
+Using @id [s2id_autogen2_search], Object 'Customer Search' Found in 147 ms
+2017-07-28 00:25:46:07S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [Customer Search] is Not Visible or hidden at the moment
+com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [Customer Search] is Not Visible or hidden at the moment
+	at com.cognizant.cognizantits.engine.commands.General.elementEnabled(General.java:64)
+	at com.cognizant.cognizantits.engine.commands.Basic.Set(Basic.java:97)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [Customer Search] is Not Visible or hidden at the moment
+
+===================================================================================================
+
+Step:10  | Object: if(typeof(ap) == 'undefined') | Action: waitForElementToBeVisible | Input:  | Conditon:  | @28-Jul-2017 00:25:49.049
+Using @name [AgencyApplicantInformationPage], Object 'if(typeof(ap) == 'undefined')' Found in 86 ms
+[DONE]   | 'if(typeof(ap) == 'undefined')' Element becomes visible in stipulated time
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : NewScenario:NewTestCase
+Executed Steps       : 10
+Passed Steps         : 8
+Failed Steps         : 2
+Time Taken           : 00:00:58
+-----------------------------------------------------
+
+Run Finished on Fri Jul 28 00:25:51 EDT 2017
+-----------------------------------------------------
+ExecutionDate        : 28-Jul-2017 00-24-53
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:58
+ReportPath           : file:///C:\Users\bpstestr\Desktop\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\NewScenario\NewTestCase\28-Jul-2017 00-24-53\summary.html
+-----------------------------------------------------

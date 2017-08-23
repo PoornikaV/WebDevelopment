@@ -1,0 +1,6 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://plworkstationin5.allmerica.com,,
+2,User ID,Enter the value [<Data>] in the Field [<Object>],Set,TestData1:UserN,,Log-In
+3,Password,Enter the Decrypted value [<Data>] in the Field [<Object>],Set,TestData1:PassW,,Log-In
+"*4",Continue,"Click the [<Object>] ",Click,,,Log-In
+5,hover-color,"Click the [<Object>] ",Click,,,Agencyportal

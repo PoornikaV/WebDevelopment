@@ -1,0 +1,48 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_92
+java.home            : C:\Program Files\Java\jre1.8.0_92
+os.name              : Windows 7
+os.arch              : x86
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Thu Aug 03 01:55:34 EDT 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:Automobile] [TestCase: InvokeApplication] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 14399
+Only local connections are allowed.
+2017-08-03 01:55:45:08S -0400 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @http://tapuat.allmerica.com/personal | Conditon:  | @03-Aug-2017 01:55:45.045
+[DONE]   | Opened Url: http://tapuat.allmerica.com/personal
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Automobile:InvokeApplication
+Executed Steps       : 1
+Passed Steps         : 1
+Failed Steps         : 0
+Time Taken           : 00:00:15
+-----------------------------------------------------
+
+Run Finished on Thu Aug 03 01:55:49 EDT 2017
+-----------------------------------------------------
+ExecutionDate        : 03-Aug-2017 01-55-34
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:15
+ReportPath           : file:///C:\Users\bpstestr\Desktop\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\Automobile\InvokeApplication\03-Aug-2017 01-55-34\summary.html
+-----------------------------------------------------

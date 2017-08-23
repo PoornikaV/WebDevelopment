@@ -1,0 +1,435 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_131
+java.home            : C:\Program Files\Java\jre1.8.0_131
+os.name              : Windows 7
+os.arch              : x86
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Fri Aug 04 00:56:12 EDT 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:Automobile] [TestCase: Auto] [Description: Test Run] [Browser: IE] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching IE
+Launching Remote Driver
+2017-08-04 00:56:16:08S -0400 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+IE Launched
+Step:2   | Object: Browser | Action: Open | Input: @http://tapuat.allmerica.com/personal | Conditon:  | @04-Aug-2017 00:56:17.017
+[DONE]   | Opened Url: http://tapuat.allmerica.com/personal
+
+===================================================================================================
+
+Step:1   | Object: User ID | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @04-Aug-2017 00:56:19.019
+Using @name [user], Object 'User ID' Found in 862 ms
+[DONE]   | Page Element[User ID] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[User ID] is clicked
+
+===================================================================================================
+
+Step:2   | Object: User ID | Action: enterTxtInputByFluentWait | Input: TestData0:Username | Conditon:  | @04-Aug-2017 00:56:21.021
+Using @name [user], Object 'User ID' Found in 99 ms
+[PASS]   | Entered Text 'sha566' on 'User ID'
+
+===================================================================================================
+
+Step:3   | Object: Password | Action: enterTxtInputByFluentWait | Input: TestData0:Password | Conditon:  | @04-Aug-2017 00:56:22.022
+Using @name [password], Object 'Password' Found in 79 ms
+[PASS]   | Entered Text 'rsa123' on 'Password'
+
+===================================================================================================
+
+Step:4   | Object: Continue | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @04-Aug-2017 00:56:23.023
+Using @relative_xpath [//button[@value='Log-in']], Object 'Continue' Found in 98 ms
+[DONE]   | Page Element[Continue] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Continue] is clicked
+
+===================================================================================================
+
+Step:1   | Object: hover-color | Action: Click | Input:  | Conditon:  | @04-Aug-2017 00:56:31.031
+Using @relative_xpath [//h4[contains(text(),'Automobile')]], Object 'hover-color' Found in 94 ms
+[DONE]   | Clicking on hover-color
+
+===================================================================================================
+
+Step:1   | Object: NewCustomerObject | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @04-Aug-2017 00:56:38.038
+Using @id [select2-chosen-2], Object 'NewCustomerObject' Found in 100 ms
+[DONE]   | Page Element[NewCustomerObject] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[NewCustomerObject] is clicked
+
+===================================================================================================
+
+Step:2   | Object: Customer Search | Action: enterTxtInputByFluentWait | Input: @create new customer number | Conditon:  | @04-Aug-2017 00:56:39.039
+Using @id [s2id_autogen2_search], Object 'Customer Search' Found in 137 ms
+[PASS]   | Entered Text 'create new customer number' on 'Customer Search'
+
+===================================================================================================
+
+Step:3   | Object: CustomerResults | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @04-Aug-2017 00:56:40.040
+Using @relative_xpath [//span[contains(text(),'Create New Customer Number')]], Object 'CustomerResults' Found in 81 ms
+[DONE]   | Page Element[CustomerResults] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[CustomerResults] is clicked
+
+===================================================================================================
+
+Step:4   | Object: AgencyProdCode | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @04-Aug-2017 00:56:41.041
+Using @name [AgencyProdCode], Object 'AgencyProdCode' Found in 231 ms
+[DONE]   | Page Element[AgencyProdCode] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[AgencyProdCode] is clicked
+
+===================================================================================================
+
+Step:5   | Object: AgencyProdCode | Action: enterTxtInputByFluentWait | Input: @6600000 | Conditon:  | @04-Aug-2017 00:56:42.042
+Using @name [AgencyProdCode], Object 'AgencyProdCode' Found in 123 ms
+[PASS]   | Entered Text '6600000' on 'AgencyProdCode'
+
+===================================================================================================
+
+Step:6   | Object: Toggle Navigation Hanover SYED | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @04-Aug-2017 00:56:43.043
+Using @relative_xpath [//body], Object 'Toggle Navigation Hanover SYED' Found in 95 ms
+[DONE]   | Page Element[Toggle Navigation Hanover SYED] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Toggle Navigation Hanover SYED] is clicked
+
+===================================================================================================
+
+Step:7   | Object: NamedInsuredFirstName | Action: waitForElementToBeClickable | Input:  | Conditon:  | @04-Aug-2017 00:56:44.044
+Using @name [NamedInsuredFirstName], Object 'NamedInsuredFirstName' Found in 128 ms
+[DONE]   | 'NamedInsuredFirstName' Element becomes Clickable in stipulated time
+
+===================================================================================================
+
+Step:8   | Object: NamedInsuredFirstName | Action: enterTxtInputByFluentWait | Input: @Auto | Conditon:  | @04-Aug-2017 00:56:47.047
+Using @name [NamedInsuredFirstName], Object 'NamedInsuredFirstName' Found in 63 ms
+[PASS]   | Entered Text 'Auto' on 'NamedInsuredFirstName'
+
+===================================================================================================
+
+Step:9   | Object: NamedInsuredLastName | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @04-Aug-2017 00:56:48.048
+Using @name [NamedInsuredLastName], Object 'NamedInsuredLastName' Found in 78 ms
+[DONE]   | Page Element[NamedInsuredLastName] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[NamedInsuredLastName] is clicked
+
+===================================================================================================
+
+Step:10  | Object: NamedInsuredLastName | Action: enterTxtInputByFluentWait | Input: @HealthCheck | Conditon:  | @04-Aug-2017 00:56:48.048
+Using @name [NamedInsuredLastName], Object 'NamedInsuredLastName' Found in 94 ms
+[PASS]   | Entered Text 'HealthCheck' on 'NamedInsuredLastName'
+
+===================================================================================================
+
+Step:11  | Object: NamedInsuredGender | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @04-Aug-2017 00:56:50.050
+Using @name [NamedInsuredGender], Object 'NamedInsuredGender' Found in 104 ms
+[DONE]   | Page Element[NamedInsuredGender] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[NamedInsuredGender] is clicked
+
+===================================================================================================
+
+Step:12  | Object: NamedInsuredDOB | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @04-Aug-2017 00:56:50.050
+Using @name [NamedInsuredDOB], Object 'NamedInsuredDOB' Found in 106 ms
+[DONE]   | Page Element[NamedInsuredDOB] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[NamedInsuredDOB] is clicked
+
+===================================================================================================
+
+Step:13  | Object: NamedInsuredDOB | Action: enterTxtInputByFluentWait | Input: @04-04-1993 | Conditon:  | @04-Aug-2017 00:56:51.051
+Using @name [NamedInsuredDOB], Object 'NamedInsuredDOB' Found in 74 ms
+[PASS]   | Entered Text '04-04-1993' on 'NamedInsuredDOB'
+
+===================================================================================================
+
+Step:14  | Object: Insured Information | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @04-Aug-2017 00:56:52.052
+Using @relative_xpath [(//*[normalize-space(text())='Insured Information'])[2]], Object 'Insured Information' Found in 154 ms
+[DONE]   | Page Element[Insured Information] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[Insured Information] is clicked
+
+===================================================================================================
+
+Step:15  | Object: LocationAddressLine1 | Action: ClickObjectByFluentWait | Input:  | Conditon:  | @04-Aug-2017 00:56:53.053
+Using @name [LocationAddressLine1], Object 'LocationAddressLine1' Found in 171 ms
+[DONE]   | Page Element[LocationAddressLine1] is enabled
+
+===================================================================================================
+
+[DONE]   | Page Element[LocationAddressLine1] is clicked
+
+===================================================================================================
+
+Step:16  | Object: LocationAddressLine1 | Action: enterTxtInputByFluentWait | Input: @6433 FIR ROAD | Conditon:  | @04-Aug-2017 00:56:58.058
+2017-08-04 00:57:01:08S -0400 [OFF ] com.cognizant.cognizantits.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.WebDriverException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByClassName(RemoteWebDriver.java:497)
+	at org.openqa.selenium.By$ByClassName.findElements(By.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.lambda$0(AutomationObject.java:312)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getElements(AutomationObject.java:303)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getWElements(AutomationObject.java:255)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElements(AutomationObject.java:242)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:118)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:111)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:93)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:170)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:143)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:368)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:121)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:105)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:57)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:141)
+	... 30 more
+Caused by: java.lang.NullPointerException
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:446)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByClassName(RemoteWebDriver.java:497)
+	at org.openqa.selenium.By$ByClassName.findElements(By.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:177)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:50)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:35)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	... 3 more
+
+Couldn't find Object 'LocationAddressLine1' in stipulated Time '10' Seconds
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+[DONE]   | Data Entry TextBox is not displayed - trying again.
+
+===================================================================================================
+
+2017-08-04 00:57:31:08S -0400 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$2@1cc16ad (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$2@1cc16ad (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.custommethods.CustomMethods.enterTxtInputByFluentWait(CustomMethods.java:59)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:148)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:144)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:132)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:60)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:368)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:121)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:105)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:57)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:376)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:334)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:79)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.custommethods.CustomMethods$2@1cc16ad (tried for 30 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WIN7P4A-0082', ip: '10.43.136.84', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+
+===================================================================================================
+
+Couldn't take ScreenShot Driver is closed or connection is lost with driver
+
+---------------------------------------------------
+Testcase Name        : Automobile:Auto
+Executed Steps       : 64
+Passed Steps         : 63
+Failed Steps         : 1
+Time Taken           : 00:01:20
+-----------------------------------------------------
+
+Run Finished on Fri Aug 04 00:57:32 EDT 2017
+-----------------------------------------------------
+ExecutionDate        : 04-Aug-2017 00-56-12
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:01:20
+ReportPath           : file:///C:\Poorni\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\AgencyPortal\Results\TestDesign\Automobile\Auto\04-Aug-2017 00-56-12\summary.html
+-----------------------------------------------------

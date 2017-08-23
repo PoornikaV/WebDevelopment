@@ -1,0 +1,9 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Edit,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+2,DriverMaritalStatus,Select item in [<Object>] which has text: [<Data>],selectDropDown_UsingVisibleTextByFluentWait,@Single,,Agencyportal
+3,DriverStatus,Select item in [<Object>] which has text: [<Data>],selectDropDown_UsingVisibleTextByFluentWait,@Principal,,Agencyportal
+4,DriverLicenseNumber,Enter the value [<Data>] in the Field [<Object>],enterTxtInputByFluentWait,@W20007259333,,Agencyportal
+5,DriverLicenseState,Select item in [<Object>] which has text: [<Data>],selectDropDown_UsingVisibleTextByFluentWait,@Illinois,,Agencyportal
+6,Save1,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+7,Continue1,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
+8,Add New,"Click the [<Object>] ",ClickObjectByFluentWait,,,Agencyportal
